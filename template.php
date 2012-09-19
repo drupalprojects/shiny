@@ -58,28 +58,6 @@ function commerce_kickstart_admin_preprocess_page(&$vars) {
 }
 
 /**
- * Display the list of available node types for node creation.
- */
-function commerce_kickstart_admin_node_add_list($variables) {
-  $content = $variables['content'];
-  $output = '';
-  if ($content) {
-    $output = '<ul class="admin-list">';
-    foreach ($content as $item) {
-      $output .= '<li class="clearfix">';
-      $output .= '<span class="label">' . l($item['title'], $item['href'], $item['localized_options']) . '</span>';
-      $output .= '<div class="description">' . filter_xss_admin($item['description']) . '</div>';
-      $output .= '</li>';
-    }
-    $output .= '</ul>';
-  }
-  else {
-    $output = '<p>' . t('You have not created any content types yet. Go to the <a href="@create-content">content type creation page</a> to add a new content type.', array('@create-content' => url('admin/structure/types/add'))) . '</p>';
-  }
-  return $output;
-}
-
-/**
  * Overrides theme_admin_block_content().
  *
  * Use unordered list markup in both compact and extended mode.
@@ -134,6 +112,7 @@ function commerce_kickstart_admin_css_alter(&$css) {
     $css['misc/ui/jquery.ui.theme.css']['data'] = drupal_get_path('theme', 'commerce_kickstart_admin') . '/css/jquery.ui.theme.css';
   }
 }
+
 function commerce_kickstart_admin_breadcrumb($variables) {
   $sep = ' <span></span> ';
   if (count($variables['breadcrumb']) > 0) {
