@@ -5,7 +5,7 @@
  *
  * Tweaks the appearance of the VBO selector.
  */
-function commerce_kickstart_admin_views_bulk_operations_form_alter(&$form, &$form_state, $vbo) {
+function shiny_views_bulk_operations_form_alter(&$form, &$form_state, $vbo) {
   if ($form_state['step'] == 'views_form_views_form') {
     $form['select']['#title'] = '';
     $form['select']['#collapsible'] = FALSE;
@@ -18,19 +18,19 @@ function commerce_kickstart_admin_views_bulk_operations_form_alter(&$form, &$for
 /**
  * Override or insert variables into the maintenance page template.
  */
-function commerce_kickstart_admin_preprocess_maintenance_page(&$vars) {
+function shiny_preprocess_maintenance_page(&$vars) {
   // While markup for normal pages is split into page.tpl.php and html.tpl.php,
   // the markup for the maintenance page is all in the single
   // maintenance-page.tpl.php template. So, to have what's done in
-  // commerce_kickstart_admin_preprocess_html() also happen on the maintenance page, it has to be
+  // shiny_preprocess_html() also happen on the maintenance page, it has to be
   // called here.
-  commerce_kickstart_admin_preprocess_html($vars);
+  shiny_preprocess_html($vars);
 }
 
 /**
  * Override or insert variables into the html template.
  */
-function commerce_kickstart_admin_preprocess_html(&$vars) {
+function shiny_preprocess_html(&$vars) {
   // Add conditional CSS for IE8 and below.
   drupal_add_css(path_to_theme() . '/css/ie.css', array('group' => CSS_THEME, 'browsers' => array('IE' => 'lte IE 8', '!IE' => FALSE), 'weight' => 999, 'preprocess' => FALSE));
   // Add conditional CSS for IE7 and below.
@@ -42,7 +42,7 @@ function commerce_kickstart_admin_preprocess_html(&$vars) {
 /**
  * Override or insert variables into the page template.
  */
-function commerce_kickstart_admin_preprocess_page(&$vars) {
+function shiny_preprocess_page(&$vars) {
   $vars['primary_local_tasks'] = $vars['tabs'];
   unset($vars['primary_local_tasks']['#secondary']);
   $vars['secondary_local_tasks'] = array(
@@ -62,7 +62,7 @@ function commerce_kickstart_admin_preprocess_page(&$vars) {
  *
  * Use unordered list markup in both compact and extended mode.
  */
-function commerce_kickstart_admin_admin_block_content($variables) {
+function shiny_admin_block_content($variables) {
   $content = $variables['content'];
   $output = '';
   if (!empty($content)) {
@@ -85,9 +85,9 @@ function commerce_kickstart_admin_admin_block_content($variables) {
  *
  * Use our own image versions, so they show up as black and not gray on gray.
  */
-function commerce_kickstart_admin_tablesort_indicator($variables) {
+function shiny_tablesort_indicator($variables) {
   $style = $variables['style'];
-  $theme_path = drupal_get_path('theme', 'commerce_kickstart_admin');
+  $theme_path = drupal_get_path('theme', 'shiny');
   if ($style == 'asc') {
     return theme('image', array('path' => $theme_path . '/images/arrow-asc.png', 'alt' => t('sort ascending'), 'width' => 13, 'height' => 13, 'title' => t('sort ascending')));
   }
@@ -99,21 +99,21 @@ function commerce_kickstart_admin_tablesort_indicator($variables) {
 /**
  * Implements hook_css_alter().
  */
-function commerce_kickstart_admin_css_alter(&$css) {
-  // Use commerce_kickstart_admin's vertical tabs style instead of the default one.
+function shiny_css_alter(&$css) {
+  // Use shiny's vertical tabs style instead of the default one.
   if (isset($css['misc/vertical-tabs.css'])) {
-    $css['misc/vertical-tabs.css']['data'] = drupal_get_path('theme', 'commerce_kickstart_admin') . '/css/vertical-tabs.css';
+    $css['misc/vertical-tabs.css']['data'] = drupal_get_path('theme', 'shiny') . '/css/vertical-tabs.css';
   }
   if (isset($css['misc/vertical-tabs-rtl.css'])) {
-    $css['misc/vertical-tabs-rtl.css']['data'] = drupal_get_path('theme', 'commerce_kickstart_admin') . '/css/vertical-tabs-rtl.css';
+    $css['misc/vertical-tabs-rtl.css']['data'] = drupal_get_path('theme', 'shiny') . '/css/vertical-tabs-rtl.css';
   }
-  // Use commerce_kickstart_admin's jQuery UI theme style instead of the default one.
+  // Use shiny's jQuery UI theme style instead of the default one.
   if (isset($css['misc/ui/jquery.ui.theme.css'])) {
-    $css['misc/ui/jquery.ui.theme.css']['data'] = drupal_get_path('theme', 'commerce_kickstart_admin') . '/css/jquery.ui.theme.css';
+    $css['misc/ui/jquery.ui.theme.css']['data'] = drupal_get_path('theme', 'shiny') . '/css/jquery.ui.theme.css';
   }
 }
 
-function commerce_kickstart_admin_breadcrumb($variables) {
+function shiny_breadcrumb($variables) {
   $sep = ' <span></span> ';
   if (count($variables['breadcrumb']) > 0) {
     return '<div class="breadcrumb clearfix">' . implode($sep, $variables['breadcrumb']) . '</div>';
@@ -128,7 +128,7 @@ function commerce_kickstart_admin_breadcrumb($variables) {
  *
  * @see overlay.tpl.php
  */
-function commerce_kickstart_admin_preprocess_overlay(&$variables) {
+function shiny_preprocess_overlay(&$variables) {
   if (module_exists('crumbs')) {
     $breadcrumb_data = crumbs_get_breadcrumb_data();
     $variables['crumbs_trail'] = $breadcrumb_data['trail'];
