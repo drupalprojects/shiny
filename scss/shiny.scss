@@ -252,7 +252,8 @@ textarea.form-textarea:focus {
   }
 }
 
-.node-form #edit-actions {
+.node-form #edit-actions,
+#commerce-product-ui-product-form #edit-actions  {
   background: #f8f8f8;
   padding: 15px;
 }
