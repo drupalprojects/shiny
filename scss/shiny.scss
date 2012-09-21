@@ -411,6 +411,10 @@ a.tabledrag-handle .handle {
 }
 #overlay-titlebar {
   @include round-corners(4px,4px,0,0);
+
+  .add-or-remove-shortcuts {
+    padding-top: 31px;
+  }
 }
 h1#overlay-title {
   color: #000000;
