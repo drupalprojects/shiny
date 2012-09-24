@@ -29,7 +29,7 @@
   padding-left: 0;
 }
 
-#edit-field-product > div > fieldset > legend .fieldset-legend {
+.field-widget-inline-entity-form > div > fieldset > legend .fieldset-legend {
   border-bottom: 0;
   margin-left: 0;
 }
