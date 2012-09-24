@@ -9,13 +9,13 @@
 @import "_base.scss";
 
 /* Inline Entity Form */
-.node-form .field-widget-inline-entity-form .fieldset-wrapper {
+.field-widget-inline-entity-form .fieldset-wrapper {
   background: transparent;
   border: none;
   outline: 0;
   padding: 0;
 }
-.node-form .field-widget-inline-entity-form .ief-form-bottom {
+.field-widget-inline-entity-form .ief-form-bottom {
   padding-top: 40px;
 
   > .fieldset-wrapper {
@@ -36,16 +36,16 @@
   border-bottom: 0;
   margin-left: 0;
 }
-.node-form .field-widget-inline-entity-form .ief-form {
+.field-widget-inline-entity-form .ief-form {
   background: transparent;
 }
-.node-form .field-widget-inline-entity-form .ief-form .fieldset-wrapper {
+.field-widget-inline-entity-form .ief-form .fieldset-wrapper {
   margin-top: 0;
 }
-.node-form .field-type-commerce-product-reference > div > div.form-wrapper > fieldset > legend .fieldset-legend {
+.field-type-commerce-product-reference > div > div.form-wrapper > fieldset > legend .fieldset-legend {
   border: 0;
 }
-.node-form .field-type-commerce-product-reference > div > div.form-wrapper > fieldset > div.fieldset-wrapper {
+.field-type-commerce-product-reference > div > div.form-wrapper > fieldset > div.fieldset-wrapper {
   border: 1px solid #ccc;
   padding: 15px;
 
@@ -58,95 +58,95 @@
     margin-bottom: 10px;
   }
 }
-.node-form .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit,
+.field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit,
 .ief-row-form .ief-entity-submit {
   @include blue-button;
 }
-.node-form .field-widget-inline-entity-form fieldset {
+.field-widget-inline-entity-form fieldset {
   padding: 1.5em 0 0;
 }
-.node-form .field-widget-inline-entity-form > fieldset {
+.field-widget-inline-entity-form > fieldset {
   padding: 2em 0 0;
 }
-.node-form .field-widget-inline-entity-form fieldset .tabledrag-toggle-weight-wrapper {
+.field-widget-inline-entity-form fieldset .tabledrag-toggle-weight-wrapper {
   float: right;
   margin-top: -10px;
 }
-.node-form .field-widget-inline-entity-form fieldset.ief-entity-fieldset,
+.field-widget-inline-entity-form fieldset.ief-entity-fieldset,
 .ief-form-bottom > legend .fieldset-legend {
   background: transparent;
   border: 0;
   margin: 0;
 }
-.node-form .field-widget-inline-entity-form fieldset.ief-entity-fieldset .fieldset-legend {
+.field-widget-inline-entity-form fieldset.ief-entity-fieldset .fieldset-legend {
   border-bottom: 1px solid #e4e4e4;
   font-size: 16px;
   font-weight: 600;
   width: 98%;
 }
-.node-form .field-widget-inline-entity-form fieldset.ief-entity-fieldset .fieldset-wrapper {
+.field-widget-inline-entity-form fieldset.ief-entity-fieldset .fieldset-wrapper {
   background: transparent;
   border: 0;
   display: inline-block;
   padding: 15px;
   width: 100%;
 }
-.node-form .field-widget-inline-entity-form fieldset.ief-product-image .fieldset-wrapper {
+.field-widget-inline-entity-form fieldset.ief-product-image .fieldset-wrapper {
   padding-top: 5px;
   width: 100%;
 }
-.node-form .field-widget-inline-entity-form .tabledrag-changed-warning,
-.node-form .field-widget-inline-entity-form .ief-entity-table {
+.field-widget-inline-entity-form .tabledrag-changed-warning,
+.field-widget-inline-entity-form .ief-entity-table {
   clear: both;
 }
-.node-form .field-widget-inline-entity-form .ief-entity-table,
-.node-form .field-widget-inline-entity-form .ief-entity-table tr td:last-child{
+.field-widget-inline-entity-form .ief-entity-table,
+.field-widget-inline-entity-form .ief-entity-table tr td:last-child{
   background-color: transparent;
 }
-.node-form .field-widget-inline-entity-form .ief-entity-table,
-.node-form .field-widget-inline-entity-form .ief-entity-table tr.even,
-.node-form .field-widget-inline-entity-form .ief-entity-table tr.odd {
+.field-widget-inline-entity-form .ief-entity-table,
+.field-widget-inline-entity-form .ief-entity-table tr.even,
+.field-widget-inline-entity-form .ief-entity-table tr.odd {
   background: #f1f1f1;
   border-bottom: 1px solid #BEBFB9;
 }
-.node-form .field-widget-inline-entity-form .ief-entity-table tr:hover,
+.field-widget-inline-entity-form .ief-entity-table tr:hover,
 tr.even {
   background: #f1f1f1;
 }
-.node-form .field-widget-inline-entity-form .ief-entity-table .ief-row-entity-form {
+.field-widget-inline-entity-form .ief-entity-table .ief-row-entity-form {
   background: #fff;
   border: 1px solid #ccc;
   border-width: 0 1px 1px;
 }
-.node-form .field-widget-inline-entity-form .ief-entity-table tr.ief-row-entity-form {
+.field-widget-inline-entity-form .ief-entity-table tr.ief-row-entity-form {
   background: #DFF2FB;
   border: 1px solid #AFDBE9;
   -moz-box-shadow: 0 0 5px #fff;
   -webkit-box-shadow: 0 0 5px #fff;
   box-shadow: 0 0 5px #fff;
 }
-.node-form .ief-row-entity .ief-entity-operations {
+.ief-row-entity .ief-entity-operations {
   position: relative;
 }
-.node-form .ief-row-entity .ief-entity-operations .ajax-progress {
+.ief-row-entity .ief-entity-operations .ajax-progress {
   left: 0;
   position:absolute;
   top: 100%;
 }
-.node-form .ief-row-form {
+.ief-row-form {
   background: #fff;
 }
-.node-form .ief-row-form > td {
+.ief-row-form > td {
   padding-top: 0;
 }
-.node-form .field-widget-inline-entity-form tr.ief-row-form .ief-form-row {
+.field-widget-inline-entity-form tr.ief-row-form .ief-form-row {
   padding-top: 30px;
 }
-.node-form .field-widget-inline-entity-form .ief-entity-table tr.ief-row-form:hover {
+.field-widget-inline-entity-form .ief-entity-table tr.ief-row-form:hover {
   background: #fff;
 }
-.node-form .field-widget-inline-entity-form .ief-entity-operations input.form-submit,
-.node-form .field-widget-inline-entity-form .field-type-image table input.form-submit {
+.field-widget-inline-entity-form .ief-entity-operations input.form-submit,
+.field-widget-inline-entity-form .field-type-image table input.form-submit {
   background: transparent;
   border: 0;
   -moz-border-radius: 0;
@@ -158,24 +158,24 @@ tr.even {
   color: #36a2f6;
   padding: 0;
 }
-.node-form .ief-product-attributes .form-wrapper,
-.node-form .ief-product-details .form-wrapper {
+.ief-product-attributes .form-wrapper,
+.ief-product-details .form-wrapper {
   float: left; /* LTR */
   margin-right: 25px; /* LTR */
 }
-.node-form .field-widget-inline-entity-form .fieldset-legend {
+.field-widget-inline-entity-form .fieldset-legend {
   left: 0;
   padding: 0;
   font-size: 18px;
   font-weight: 600;
 }
-.node-form .field-widget-inline-entity-form .fieldset-wrapper .fieldset-wrapper .fieldset-legend {
+.field-widget-inline-entity-form .fieldset-wrapper .fieldset-wrapper .fieldset-legend {
   padding: 3px 0;
 }
-.node-form .ief-product-details .fieldset-wrapper {
+.ief-product-details .fieldset-wrapper {
   width: 33%
 }
-.node-form .ief-product-details .form-item label {
+.ief-product-details .form-item label {
   float: left; /* LTR */
   margin-right: 10px; /* LTR */
 }
@@ -345,7 +345,7 @@ div.views-megarow-content {
   padding-top: 0;
 }
 div.views-megarow-content .megarow-header,
-.node-form .field-widget-inline-entity-form tr.ief-row-form .ief-form-row {
+.field-widget-inline-entity-form tr.ief-row-form .ief-form-row {
   background: transparent url("../images/mega-arrow.png") no-repeat 50px -1px !important;
   margin-top: -1px;
   position: relative;
