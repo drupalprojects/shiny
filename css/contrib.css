@@ -895,7 +895,8 @@ html.js .views-exposed-form .form-item input.throbbing {
   form table #edit-select .fieldset-wrapper input.form-submit {
     padding: 1px 20px;
   }
-  form table input.form-checkbox {
+  form table input.form-checkbox,
+  form table input.form-radio {
     opacity: 1;
     height: auto;
     width: auto;
@@ -932,6 +933,12 @@ html.js .views-exposed-form .form-item input.throbbing {
     padding: 3px 0 0 20px;
   }
 }
+/* Fix for Opera */
+noindex:-o-prefocus input.form-checkbox,
+noindex:-o-prefocus input.form-radio, form table input.form-checkbox, form table input.form-radio {
+  opacity: 1;
+}
+
 /* Action Links in Views Attachments */
 .view-commerce-backoffice-products .attachment ul.action-links,
 .view-commerce-backoffice-orders .attachment ul.action-links {

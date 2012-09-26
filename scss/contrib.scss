@@ -670,7 +670,8 @@ html.js .views-exposed-form .form-item input.throbbing {
       padding: 1px 20px;
     }
 
-    input.form-checkbox {
+    input.form-checkbox,
+    input.form-radio {
       opacity: 1;
       height: auto;
       width: auto;
@@ -708,6 +709,13 @@ html.js .views-exposed-form .form-item input.throbbing {
     #edit-select .fieldset-wrapper {
       padding: 3px 0 0 20px;
     }
+  }
+}
+/* Fix for Opera */
+noindex:-o-prefocus, form table {
+  input.form-checkbox,
+  input.form-radio {
+    opacity: 1;
   }
 }
 /* Action Links in Views Attachments */
