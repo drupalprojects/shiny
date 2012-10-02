@@ -42,7 +42,7 @@ $serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Deja
   @include button(#ccc, #fff);
 
   &:hover {
-    @include gradient-vertical(#e0e0e0,#fefefe);
+    background: #e2e2e2;
   }
 
   &:focus,
@@ -58,7 +58,7 @@ $serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Deja
   color: #fff;
 
   &:hover {
-    @include gradient-vertical(#2F88CD,#36A2F6);
+    background: #318fd9;
   }
 
   &:focus,

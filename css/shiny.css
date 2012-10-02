@@ -806,14 +806,7 @@ a.button:focus {
 }
 input.form-submit:hover,
 a.button:hover {
-  background: #fefefe;
-  background: -moz-linear-gradient(top, #e0e0e0 0%, #fefefe 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e0e0e0), color-stop(100%, #fefefe));
-  background: -webkit-linear-gradient(top, #e0e0e0 0%, #fefefe 100%);
-  background: -o-linear-gradient(top, #e0e0e0 0%, #fefefe 100%);
-  background: -ms-linear-gradient(top, #e0e0e0 0%, #fefefe 100%);
-  background: linear-gradient(to bottom, #e0e0e0 0%, #fefefe 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
+  background: #e2e2e2;
 }
 input.form-submit:focus, input.form-submit:active,
 a.button:focus,
@@ -926,14 +919,7 @@ ul.action-links li:hover,
 html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:hover,
 .field-widget-inline-entity-form .container-inline input.form-submit:hover,
 input.ief-entity-submit:hover {
-  background: #36a2f6;
-  background: -moz-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f88cd), color-stop(100%, #36a2f6));
-  background: -webkit-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: -o-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: -ms-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: linear-gradient(to bottom, #2f88cd 0%, #36a2f6 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
+  background: #318fd9;
 }
 .form-actions #edit-submit:focus, .form-actions #edit-submit:active,
 .form-actions #edit-save:focus,

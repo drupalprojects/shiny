@@ -982,7 +982,13 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper{
 .vertical-tabs-pane .fieldset-wrapper > div.form-type-checkbox:first-child {
   padding-top: 0;
 }
-
+/**
+ * @TODO Need to get Help fixed in CK
+ */
+#commerce-kickstart-inline-help-button #edit-commerce-kickstart-inline-help-button {
+  margin-top: 10px;
+  margin-bottom: -50px;
+}
 
 /* @end */
 

@@ -117,14 +117,7 @@
 }
 .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:hover,
 .ief-row-form .ief-entity-submit:hover {
-  background: #36a2f6;
-  background: -moz-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f88cd), color-stop(100%, #36a2f6));
-  background: -webkit-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: -o-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: -ms-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: linear-gradient(to bottom, #2f88cd 0%, #36a2f6 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
+  background: #318fd9;
 }
 .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:focus, .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:active,
 .ief-row-form .ief-entity-submit:focus,
@@ -359,14 +352,7 @@ tr.even {
 }
 .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:hover,
 .view-commerce-backoffice-order-messages #commerce-backoffice-message-form input.form-submit:hover {
-  background: #36a2f6;
-  background: -moz-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2f88cd), color-stop(100%, #36a2f6));
-  background: -webkit-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: -o-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: -ms-linear-gradient(top, #2f88cd 0%, #36a2f6 100%);
-  background: linear-gradient(to bottom, #2f88cd 0%, #36a2f6 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
+  background: #318fd9;
 }
 .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:focus, .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:active,
 .view-commerce-backoffice-order-messages #commerce-backoffice-message-form input.form-submit:focus,
@@ -1182,6 +1168,14 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper {
 #foo:checked::before,
 .vertical-tabs-pane .fieldset-wrapper > div.form-type-checkbox:first-child {
   padding-top: 0;
+}
+
+/**
+ * @TODO Need to get Help fixed in CK
+ */
+#commerce-kickstart-inline-help-button #edit-commerce-kickstart-inline-help-button {
+  margin-top: 10px;
+  margin-bottom: -50px;
 }
 
 /* @end */
