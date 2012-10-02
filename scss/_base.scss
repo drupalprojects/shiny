@@ -26,14 +26,8 @@ $serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Deja
   padding: 6px 30px;
   text-decoration: none;
 
-  &:hover {
-    -moz-box-shadow: 0 1px 2px #ccc, inset 0 -1px 1px $highlight;
-    -webkit-box-shadow: 0 1px 2px #ccc, inset 0 -1px 1px $highlight;
-    box-shadow: 0 1px 2px #ccc, inset 0 -1px 1px $highlight;
-  }
-
   &:focus {
-    color: #434343;
+    color: #fff;
   }
 }
 
@@ -44,7 +38,7 @@ $serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Deja
   &:hover,
   &:focus,
   &:active {
-    background: #e2e2e2;
+    background: #eeeeee;
     color: #5A5A5A;
     text-shadow: 0 -1px 1px #fff;
   }
@@ -59,7 +53,8 @@ $serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Deja
   &:hover,
   &:focus,
   &:active {
-    background: #318fd9;
+    background: #359ff2;
+    box-shadow: 0 1px 2px #cccccc, inset 0 1px 1px #7bb8ef;
     color: #fff;
     text-shadow: 0 -1px 1px #2F88CD;
   }

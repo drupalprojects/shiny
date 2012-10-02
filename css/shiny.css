@@ -794,21 +794,15 @@ a.button {
   padding: 6px 30px;
   text-decoration: none;
 }
-input.form-submit:hover,
-a.button:hover {
-  -moz-box-shadow: 0 1px 2px #cccccc, inset 0 -1px 1px white;
-  -webkit-box-shadow: 0 1px 2px #cccccc, inset 0 -1px 1px white;
-  box-shadow: 0 1px 2px #cccccc, inset 0 -1px 1px white;
-}
 input.form-submit:focus,
 a.button:focus {
-  color: #434343;
+  color: #fff;
 }
 input.form-submit:hover, input.form-submit:focus, input.form-submit:active,
 a.button:hover,
 a.button:focus,
 a.button:active {
-  background: #e2e2e2;
+  background: #eeeeee;
   color: #5A5A5A;
   text-shadow: 0 -1px 1px white;
 }
@@ -893,23 +887,13 @@ input.ief-entity-submit {
   text-decoration: none;
   color: #fff;
 }
-.form-actions #edit-submit:hover,
-.form-actions #edit-save:hover,
-ul.action-links li:hover,
-html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:hover,
-.field-widget-inline-entity-form .container-inline input.form-submit:hover,
-input.ief-entity-submit:hover {
-  -moz-box-shadow: 0 1px 2px #cccccc, inset 0 -1px 1px #7bb8ef;
-  -webkit-box-shadow: 0 1px 2px #cccccc, inset 0 -1px 1px #7bb8ef;
-  box-shadow: 0 1px 2px #cccccc, inset 0 -1px 1px #7bb8ef;
-}
 .form-actions #edit-submit:focus,
 .form-actions #edit-save:focus,
 ul.action-links li:focus,
 html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:focus,
 .field-widget-inline-entity-form .container-inline input.form-submit:focus,
 input.ief-entity-submit:focus {
-  color: #434343;
+  color: #fff;
 }
 .form-actions #edit-submit:hover, .form-actions #edit-submit:focus, .form-actions #edit-submit:active,
 .form-actions #edit-save:hover,
@@ -927,7 +911,8 @@ html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsib
 input.ief-entity-submit:hover,
 input.ief-entity-submit:focus,
 input.ief-entity-submit:active {
-  background: #318fd9;
+  background: #359ff2;
+  box-shadow: 0 1px 2px #cccccc, inset 0 1px 1px #7bb8ef;
   color: #fff;
   text-shadow: 0 -1px 1px #2f88cd;
 }
