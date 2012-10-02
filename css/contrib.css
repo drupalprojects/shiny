@@ -115,13 +115,11 @@
 .ief-row-form .ief-entity-submit:focus {
   color: #434343;
 }
-.field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:hover,
-.ief-row-form .ief-entity-submit:hover {
-  background: #318fd9;
-}
-.field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:focus, .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:active,
+.field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:hover, .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:focus, .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:active,
+.ief-row-form .ief-entity-submit:hover,
 .ief-row-form .ief-entity-submit:focus,
 .ief-row-form .ief-entity-submit:active {
+  background: #318fd9;
   color: #fff;
   text-shadow: 0 -1px 1px #2f88cd;
 }
@@ -350,13 +348,11 @@ tr.even {
 .view-commerce-backoffice-order-messages #commerce-backoffice-message-form input.form-submit:focus {
   color: #434343;
 }
-.entity-commerce-order .commerce-backoffice-order-status-form .form-submit:hover,
-.view-commerce-backoffice-order-messages #commerce-backoffice-message-form input.form-submit:hover {
-  background: #318fd9;
-}
-.entity-commerce-order .commerce-backoffice-order-status-form .form-submit:focus, .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:active,
+.entity-commerce-order .commerce-backoffice-order-status-form .form-submit:hover, .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:focus, .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:active,
+.view-commerce-backoffice-order-messages #commerce-backoffice-message-form input.form-submit:hover,
 .view-commerce-backoffice-order-messages #commerce-backoffice-message-form input.form-submit:focus,
 .view-commerce-backoffice-order-messages #commerce-backoffice-message-form input.form-submit:active {
+  background: #318fd9;
   color: #fff;
   text-shadow: 0 -1px 1px #2f88cd;
 }

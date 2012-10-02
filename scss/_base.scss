@@ -41,15 +41,14 @@ $serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Deja
   @include gradient-vertical(#fefefe,#e0e0e0);
   @include button(#ccc, #fff);
 
-  &:hover {
-    background: #e2e2e2;
-  }
-
+  &:hover,
   &:focus,
   &:active {
+    background: #e2e2e2;
     color: #5A5A5A;
     text-shadow: 0 -1px 1px #fff;
   }
+
 }
 
 @mixin blue-button {
@@ -57,12 +56,10 @@ $serif: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "Deja
   @include button(#2F88CD, #7bb8ef);
   color: #fff;
 
-  &:hover {
-    background: #318fd9;
-  }
-
+  &:hover,
   &:focus,
   &:active {
+    background: #318fd9;
     color: #fff;
     text-shadow: 0 -1px 1px #2F88CD;
   }

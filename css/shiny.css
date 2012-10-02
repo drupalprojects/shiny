@@ -804,13 +804,11 @@ input.form-submit:focus,
 a.button:focus {
   color: #434343;
 }
-input.form-submit:hover,
-a.button:hover {
-  background: #e2e2e2;
-}
-input.form-submit:focus, input.form-submit:active,
+input.form-submit:hover, input.form-submit:focus, input.form-submit:active,
+a.button:hover,
 a.button:focus,
 a.button:active {
+  background: #e2e2e2;
   color: #5A5A5A;
   text-shadow: 0 -1px 1px white;
 }
@@ -913,25 +911,23 @@ html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsib
 input.ief-entity-submit:focus {
   color: #434343;
 }
-.form-actions #edit-submit:hover,
+.form-actions #edit-submit:hover, .form-actions #edit-submit:focus, .form-actions #edit-submit:active,
 .form-actions #edit-save:hover,
-ul.action-links li:hover,
-html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:hover,
-.field-widget-inline-entity-form .container-inline input.form-submit:hover,
-input.ief-entity-submit:hover {
-  background: #318fd9;
-}
-.form-actions #edit-submit:focus, .form-actions #edit-submit:active,
 .form-actions #edit-save:focus,
 .form-actions #edit-save:active,
+ul.action-links li:hover,
 ul.action-links li:focus,
 ul.action-links li:active,
+html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:hover,
 html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:focus,
 html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:active,
+.field-widget-inline-entity-form .container-inline input.form-submit:hover,
 .field-widget-inline-entity-form .container-inline input.form-submit:focus,
 .field-widget-inline-entity-form .container-inline input.form-submit:active,
+input.ief-entity-submit:hover,
 input.ief-entity-submit:focus,
 input.ief-entity-submit:active {
+  background: #318fd9;
   color: #fff;
   text-shadow: 0 -1px 1px #2f88cd;
 }
