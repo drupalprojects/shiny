@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
 /* Import Font Families */
 /* Base Admin Theme Styles */
 * {
@@ -8,16 +8,9 @@
 }
 
 body {
-  /*font-family: "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font: normal 500 0.923em/1.5em "Open Sans", Arial, sans-serif;
 }
 
-/* Chrome Safari fix for text on video pages */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  body {
-    -webkit-font-smoothing: antialiased;
-  }
-}
 a {
   color: #36a2f6;
 }
@@ -34,7 +27,6 @@ body.in-maintenance .body-wrapper {
   background: -o-linear-gradient(top, #569ad4 0%, #256ba7 100%);
   background: -ms-linear-gradient(top, #569ad4 0%, #256ba7 100%);
   background: linear-gradient(to bottom, #569ad4 0%, #256ba7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
 }
 body.in-maintenance .body-wrapper .page-outer {
   background: transparent url("../images/installation-bg.png") repeat 0 0;
@@ -54,6 +46,7 @@ body.in-maintenance #branding {
 body.in-maintenance #branding h1.page-title {
   color: #747474;
   float: right;
+  /* LTR */
   font-size: 32px;
   font-weight: 100;
   line-height: 1em;
@@ -79,6 +72,7 @@ body.in-maintenance .page-wrapper {
 }
 body.in-maintenance .logo-wrapper {
   float: left;
+  /*LTR */
 }
 body.in-maintenance #logo {
   margin: 0;
@@ -109,7 +103,9 @@ body.in-maintenance ol.task-list li {
   font: normal 400 16px/18px "Open Sans", Arial, sans-serif;
   height: 30px;
   padding: 6px 0 0 40px;
+  /* LTR */
   margin: 0 0 22px 0;
+  /* LTR */
 }
 
 body.in-maintenance ol.task-list li.active {
@@ -132,6 +128,7 @@ body.in-maintenance .form-item-install-demo-store .description {
   margin-left: 80px;
   /* LTR */
   padding: 3px 5px 5px 23px;
+  /* LTR */
 }
 
 body.in-maintenance div.form-type-password {
@@ -166,6 +163,7 @@ fieldset .fieldset-legend {
   border-bottom: 1px solid #ccc;
   font-weight: 700;
   margin: 0 0 0 15px;
+  /* LTR */
   padding: 5px 0 5px 0;
   text-transform: none;
   width: 97%;
@@ -194,6 +192,7 @@ body.in-maintenance fieldset .fieldset-legend {
   font-size: 28px;
   font-weight: 400;
   margin-left: 0;
+  /* LTR */
 }
 
 .form-item label {
@@ -267,6 +266,7 @@ textarea.form-textarea:focus {
 #edit-actions #edit-delete {
   color: #ab5757;
   float: right;
+  /* LTR */
   margin: 0;
   background: transparent;
   border: 0;
@@ -294,6 +294,7 @@ input.form-checkbox + label,
 input.form-radio + label {
   font-weight: 500;
   padding-left: 20px;
+  /* LTR */
   cursor: pointer;
 }
 
@@ -314,6 +315,7 @@ input.form-radio + label::before {
   position: absolute;
   top: 2px;
   left: 0;
+  /* LTR */
   height: 20px;
   width: 20px;
   background: transparent url("../images/toggles.png") no-repeat 0 0;
@@ -367,7 +369,9 @@ select.form-select:focus {
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   select.form-select {
     padding: 5px 35px 5px 5px;
+    /* LTR */
     background: white url("../images/drop-filter.png") no-repeat right center;
+    /* LTR */
   }
 }
 .exposed-filters .form-item label {
@@ -438,11 +442,13 @@ a.tabledrag-handle .handle {
 
 #overlay-close-wrapper {
   right: 17px;
+  /* LTR */
   top: 15px;
 }
 #overlay-close-wrapper #overlay-close {
   background: transparent url("../images/close.png") no-repeat left top;
   right: 0;
+  /* LTR */
 }
 #overlay-close-wrapper #overlay-close:hover {
   background-position: left bottom;
@@ -458,7 +464,6 @@ a.tabledrag-handle .handle {
   background: -o-linear-gradient(top, #f0f0f0 0%, #dedede 100%);
   background: -ms-linear-gradient(top, #f0f0f0 0%, #dedede 100%);
   background: linear-gradient(to bottom, #f0f0f0 0%, #dedede 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
   box-shadow: inset 0 -2px 3px #cccccc;
 }
 
@@ -490,7 +495,6 @@ h1#overlay-title {
 #overlay #overlay-content {
   background: #ffffff;
   padding: 8px;
-  /* was  4.2105%  40px/950px */
   margin-bottom: 200px;
 }
 
@@ -505,6 +509,7 @@ h1#overlay-title {
 #overlay-tabs-wrapper {
   height: 34px;
   float: right;
+  /* LTR */
 }
 
 #overlay-tabs,
@@ -513,6 +518,7 @@ h1#overlay-title {
   padding: 3px 0 0;
   position: relative;
   right: 0;
+  /* LTR */
 }
 
 #overlay-tabs li,
@@ -533,7 +539,6 @@ h1#overlay-title {
   background: -o-linear-gradient(top, #c8c8c8 0%, #b6b6b6 100%);
   background: -ms-linear-gradient(top, #c8c8c8 0%, #b6b6b6 100%);
   background: linear-gradient(to bottom, #c8c8c8 0%, #b6b6b6 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
   -moz-border-radius: 4px 4px 0 0;
   -webkit-border-radius: 4px 4px 0 0;
   border-radius: 4px 4px 0 0;
@@ -544,6 +549,7 @@ h1#overlay-title {
   font-weight: 400 !important;
   line-height: 30px;
   margin: 0 5px 1px 0;
+  /* LTR */
   text-transform: none;
 }
 
@@ -556,7 +562,6 @@ h1#overlay-title {
   background: -o-linear-gradient(top, #999999 0%, #666666 100%);
   background: -ms-linear-gradient(top, #999999 0%, #666666 100%);
   background: linear-gradient(to bottom, #999999 0%, #666666 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
   box-shadow: inset 0 -2px 3px #666666;
 }
 
@@ -569,6 +574,7 @@ h1#overlay-title {
   box-shadow: none;
   color: #000;
   margin: 0 5px 0 0;
+  /* LTR */
 }
 
 #overlay-tabs li:last-child a, #overlay-tabs li.active:last-child a {
@@ -582,6 +588,7 @@ h1#overlay-title {
 .overlay ul.secondary li {
   margin: 0;
   padding: 0 0 0 10px;
+  /* LTR */
 }
 
 #overlay #overlay-content #branding {
@@ -672,8 +679,10 @@ body.in-maintenance #credit .logo a {
 
 .breadcrumb {
   clear: left;
+  /* LTR */
   color: #666666;
   float: left;
+  /* LTR */
   font-size: 12px;
   padding-bottom: 10px;
   width: auto;
@@ -681,6 +690,7 @@ body.in-maintenance #credit .logo a {
 .breadcrumb a, .breadcrumb span {
   display: inline-block;
   margin: 0 5px 0 0;
+  /* LTR */
 }
 .breadcrumb a {
   color: #666666;
@@ -780,7 +790,6 @@ a.button {
   background: -o-linear-gradient(top, #fefefe 0%, #e0e0e0 100%);
   background: -ms-linear-gradient(top, #fefefe 0%, #e0e0e0 100%);
   background: linear-gradient(to bottom, #fefefe 0%, #e0e0e0 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
   border: 1px solid #cccccc;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -872,7 +881,6 @@ input.ief-entity-submit {
   background: -o-linear-gradient(top, #36a2f6 0%, #2f88cd 100%);
   background: -ms-linear-gradient(top, #36a2f6 0%, #2f88cd 100%);
   background: linear-gradient(to bottom, #36a2f6 0%, #2f88cd 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$from, endColorstr=$to,GradientType=0 );
   border: 1px solid #2f88cd;
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
@@ -932,6 +940,7 @@ input.ief-entity-submit:active {
 /* Action Links Overrides of above */
 ul.action-links li {
   float: left;
+  /* LTR */
   padding: 0;
 }
 
@@ -940,6 +949,7 @@ ul.action-links li a {
   color: #ffffff;
   font-weight: 500;
   padding: 4px 10px 4px 30px;
+  /* LTR */
 }
 
 ul.action-links li a:hover {
@@ -949,6 +959,7 @@ ul.action-links li a:hover {
 .rules-elements-table ul.rules-operations-add a {
   line-height: 1.25em;
   float: left;
+  /* LTR */
 }
 
 /* Table Styles */
@@ -1019,15 +1030,19 @@ table td.views-field-edit-node a {
 
 .item-list ul.pager li {
   border-right: 1px solid #737373;
+  /* LTR */
   font-size: 14px;
   font-weight: 500;
   margin: 0 5px 0 0;
+  /* LTR */
   padding: 0 5px 0 0;
+  /* LTR */
   text-transform: capitalize;
 }
 
 ul.pager li.pager-next {
   border-right: 0;
+  /* LTR */
 }
 
 .item-list ul.pager {
@@ -1055,6 +1070,7 @@ ul.pager li.pager-last {
 
 fieldset.collapsed {
   padding-left: 0;
+  /* LTR */
 }
 
 html.js input.form-autocomplete {

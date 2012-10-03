@@ -1,5 +1,5 @@
 /* Import Font Families */
-@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);
 @import "_base.scss";
 
 /* Base Admin Theme Styles */
@@ -9,14 +9,7 @@
   box-sizing: border-box;
 }
 body {
-/*font-family: "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   font: normal 500 .923em/1.5em "Open Sans", Arial, sans-serif;
-}
-/* Chrome Safari fix for text on video pages */
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  body {
-    -webkit-font-smoothing: antialiased;
-  }
 }
 a {
   color: #36a2f6;
@@ -47,7 +40,7 @@ body.in-maintenance {
 
     h1.page-title {
       color: #747474;
-      float: right;
+      float: right; /* LTR */
       font-size: 32px;
       font-weight: 100;
       line-height: 1em;
@@ -72,7 +65,7 @@ body.in-maintenance {
   }
 
   .logo-wrapper {
-    float: left;
+    float: left; /*LTR */
   }
 
   #logo {
@@ -104,8 +97,8 @@ body.in-maintenance ol.task-list li {
   color: #9a9a9a;
   font: normal 400 16px/18px "Open Sans", Arial, sans-serif;
   height: 30px;
-  padding: 6px 0 0 40px;
-  margin: 0 0 22px 0;
+  padding: 6px 0 0 40px; /* LTR */
+  margin: 0 0 22px 0; /* LTR */
 }
 body.in-maintenance ol.task-list li.active {
   background: transparent url("../images/tasks-active.png") no-repeat 5px 4px;
@@ -121,7 +114,7 @@ body.in-maintenance .form-item-install-demo-store .form-radios {
 body.in-maintenance .form-item-install-demo-store .description {
   background: transparent url("../images/small-pointer.png") no-repeat 0 3px;
   margin-left: 80px; /* LTR */
-  padding: 3px 5px 5px 23px;
+  padding: 3px 5px 5px 23px; /* LTR */
 }
 
 body.in-maintenance div.form-type-password {
@@ -153,7 +146,7 @@ fieldset.collapsed {
 fieldset .fieldset-legend {
   border-bottom: 1px solid #ccc;
   font-weight: 700;
-  margin: 0 0 0 15px;
+  margin: 0 0 0 15px; /* LTR */
   padding: 5px 0 5px 0;
   text-transform: none;
   width: 97%;
@@ -177,7 +170,7 @@ body.in-maintenance fieldset .fieldset-legend {
   color: #000;
   font-size: 28px;
   font-weight: 400;
-  margin-left: 0;
+  margin-left: 0; /* LTR */
 }
 .form-item label {
   font-weight: 700;
@@ -240,7 +233,7 @@ textarea.form-textarea:focus {
 
   #edit-delete {
     color: #ab5757;
-    float: right;
+    float: right; /* LTR */
     margin: 0;
     background: transparent;
     border: 0;
@@ -266,7 +259,7 @@ textarea.form-textarea:focus {
 input.form-checkbox + label,
 input.form-radio + label {
   font-weight: 500;
-  padding-left: 20px; //LTR
+  padding-left: 20px; /* LTR */
   cursor: pointer;
 }
 /* Using "foo" to make unsupporting browsers ignore */
@@ -284,7 +277,7 @@ input.form-radio + label::before {
   cursor: pointer;
   position: absolute;
   top: 2px;
-  left: 0;
+  left: 0; /* LTR */
   height: 20px;
   width: 20px;
   background: transparent url("../images/toggles.png") no-repeat 0 0;
@@ -330,8 +323,8 @@ select.form-select {
 /* Targeting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   select.form-select {
-    padding: 5px 35px 5px 5px; //LTR
-    background: #fff url("../images/drop-filter.png") no-repeat right center;
+    padding: 5px 35px 5px 5px; /* LTR */
+    background: #fff url("../images/drop-filter.png") no-repeat right center; /* LTR */
   }
 }
 .exposed-filters .form-item label {
@@ -389,12 +382,12 @@ a.tabledrag-handle .handle {
   background: transparent url("../images/overlay.png") repeat 0 0 !important;
 }
 #overlay-close-wrapper {
-  right: 17px;
+  right: 17px; /* LTR */
   top: 15px;
 
   #overlay-close {
     background: transparent url("../images/close.png") no-repeat left top;
-    right: 0;
+    right: 0; /* LTR */
 
     &:hover {
       background-position: left bottom;
@@ -429,7 +422,7 @@ h1#overlay-title {
 }
 #overlay #overlay-content {
   background: #ffffff;
-  padding: 8px; /* was  4.2105%  40px/950px */
+  padding: 8px;
   margin-bottom: 200px;
 }
 #overlay #overlay-content #branding,
@@ -441,14 +434,14 @@ h1#overlay-title {
 }
 #overlay-tabs-wrapper {
   height: 34px;
-  float: right;
+  float: right; /* LTR */
 }
 #overlay-tabs,
 #branding ul.tabs {
   margin: 0;
   padding: 3px 0 0;
   position: relative;
-  right: 0
+  right: 0; /* LTR */
 }
 #overlay-tabs li,
 #branding ul.tabs li {
@@ -467,7 +460,7 @@ h1#overlay-title {
   font-size: 15px;
   font-weight: 400 !important;
   line-height: 30px;
-  margin: 0 5px 1px 0;
+  margin: 0 5px 1px 0; /* LTR */
   text-transform: none;
 }
 #overlay-tabs li a:hover,
@@ -483,7 +476,7 @@ h1#overlay-title {
   background: #ffffff;
   box-shadow: none;
   color: #000;
-  margin: 0 5px 0 0;
+  margin: 0 5px 0 0; /* LTR */
 }
 #overlay-tabs li:last-child a, #overlay-tabs li.active:last-child a {
   margin: 0;
@@ -494,7 +487,7 @@ h1#overlay-title {
 
   li {
     margin: 0;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 10px; /* LTR */
   }
 }
 #overlay #overlay-content #branding {
@@ -565,16 +558,16 @@ body.in-maintenance #credit .logo a {
   position: relative;
 }
 .breadcrumb {
-  clear: left;
+  clear: left; /* LTR */
   color: #666666;
-  float: left;
+  float: left; /* LTR */
   font-size: 12px;
   padding-bottom: 10px;
   width: auto;
 
   a, span {
     display: inline-block;
-    margin: 0 5px 0 0;
+    margin: 0 5px 0 0; /* LTR */
   }
 
   a {
@@ -720,21 +713,21 @@ input.ief-entity-submit {
 }
 /* Action Links Overrides of above */
 ul.action-links li {
-  float: left;
+  float: left; /* LTR */
   padding: 0;
 }
 ul.action-links li a {
   background: transparent url("../images/add2.png") no-repeat 10px 10px;
   color: #ffffff;
   font-weight: 500;
-  padding: 4px 10px 4px 30px;
+  padding: 4px 10px 4px 30px; /* LTR */
 }
 ul.action-links li a:hover {
   text-decoration: none;
 }
 .rules-elements-table ul.rules-operations-add a {
   line-height: 1.25em;
-  float: left;
+  float: left; /* LTR */
 }
 /* Table Styles */
 table th {
@@ -762,9 +755,6 @@ table.sticky-header {
 #views-form-commerce-orders-admin-page table td.views-field-status {
   font-weight: 500;
 }
-#edit-actions {
-  //padding-top: 30px;
-}
 div.vertical-tabs {
   margin-bottom: 2em;
 }
@@ -788,15 +778,15 @@ table td.views-field-edit-node a {
   float: right; /* LTR */
 }
 .item-list ul.pager li {
-  border-right: 1px solid #737373;
+  border-right: 1px solid #737373; /* LTR */
   font-size: 14px;
   font-weight: 500;
-  margin: 0 5px 0 0;
-  padding: 0 5px 0 0;
+  margin: 0 5px 0 0; /* LTR */
+  padding: 0 5px 0 0; /* LTR */
   text-transform: capitalize;
 }
 ul.pager li.pager-next {
-  border-right: 0;
+  border-right: 0; /* LTR */
 }
 .item-list ul.pager {
   text-align: right; /* LTR */
@@ -817,7 +807,7 @@ ul.pager li.pager-last {
   display: none;
 }
 fieldset.collapsed {
-  padding-left: 0;
+  padding-left: 0; /* LTR */
 }
 html.js input.form-autocomplete {
   background-position: 100% 7px;

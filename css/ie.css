@@ -15,3 +15,9 @@ pre,
 kbd {
   font-size: 1em;
 }
+
+#overlay-titlebar,
+#branding,
+.views-ui-dialog .views-override {
+  background: #dedede url("../images/ie-title-gradient.png") repeat-x 0 0;
+}

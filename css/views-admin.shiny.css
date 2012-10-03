@@ -100,6 +100,7 @@ fieldset.fieldset-no-legend {
 .form-item-options-expose-required,
 .form-item-options-expose-label {
   margin-left: 1.5em;
+  /* LTR */
 }
 
 .views-admin-dependent .form-item .form-item,
@@ -196,6 +197,7 @@ table th {
 
 .views-displays .secondary > li:first-child {
   padding-left: 0;
+  /* LTR */
 }
 
 .views-admin .icon.add {
@@ -227,8 +229,11 @@ table th {
 
 .views-displays .secondary .action-list li:first-child {
   -moz-border-radius: 0 7px 0 0;
+  /* LTR */
   -webkit-border-radius: 0 7px 0 0;
+  /* LTR */
   border-radius: 0 7px 0 0;
+  /* LTR */
 }
 
 .views-displays .secondary .action-list li:last-child {
@@ -263,6 +268,7 @@ table th {
 
 .views-ui-display-tab-bucket .links li + li {
   margin-left: 3px;
+  /* LTR */
 }
 
 /* @end */
@@ -282,6 +288,7 @@ table th {
 
 #views-ui-rearrange-filter-form tr td:last-child {
   border-right: medium none;
+  /* LTR */
 }
 
 #views-ui-rearrange-filter-form .filter-group-operator-row {
@@ -353,10 +360,12 @@ table th {
   /* This selector is aggressive because Seven's reset for .form-items is aggressive. */
   padding-bottom: 4px;
   padding-left: 4px;
+  /* LTR */
   padding-top: 4px;
 }
 .filterable-option .form-item.form-type-checkbox input.form-checkbox + label::before {
   left: 5px;
+  /* LTR */
   top: 8px;
 }
 
