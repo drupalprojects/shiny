@@ -211,6 +211,9 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper {
 .chzn-container-multi .chzn-choices {
   background: white url("../images/drop-filter-rtl.png") no-repeat left center;
 }
+.chzn-container-multi .chzn-choices li {
+  float: right;
+}
 
 .chzn-container-single .chzn-single div b,
 .view-commerce-backoffice-products .chzn-container-single .chzn-single div b,

@@ -28,9 +28,24 @@
 }
 
 /* Inline Entity Form */
+.field-type-commerce-product-reference fieldset.form-wrapper {
+  border: 0;
+}
+.field-type-commerce-product-reference fieldset .fieldset-legend {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 0 15px; /* LTR */
+  padding: 5px 0 5px 0;
+  text-transform: none;
+  width: 97%;
+}
+.field-widget-inline-entity-form fieldset.collapsible .fieldset-legend {
+  color: #585858;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 15px;
+}
 .field-widget-inline-entity-form .fieldset-wrapper {
   background: transparent;
-  border: none;
   outline: 0;
   padding: 0;
 }
@@ -456,6 +471,15 @@ html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsib
 .commerce-discount-form #edit-actions {
   margin-top: 20px;
 }
+td.views-field-operations-dropbutton {
+  position: relative;
+
+  .ctools-dropbutton-processed {
+    position: absolute;
+    top: 18px;
+  }
+}
+
 /* Discounts Admin Fixes */
 .view-commerce-discount-overview .views-table td.views-field-operations-dropbutton .ctools-dropbutton {
   @include round-corners(3px,3px,3px,3px);
@@ -908,8 +932,11 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper{
   color: #737373;
   padding-right: 26px; /* LTR */
 }
+.chzn-container-single .chzn-single {
+  overflow: visible;
+}
 .chzn-container-multi .chzn-choices .search-field .default {
-  padding-top: 12px;
+  height: 24px;
 }
 .chzn-container-single .chzn-single,
 .chzn-container-single .chzn-drop,
@@ -943,7 +970,7 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper{
   width: 28px;
 }
 .chzn-container-multi .chzn-choices li {
-  float: right; /* LTR */
+  float: left; /* LTR */
 }
 .chzn-container-single .chzn-single div b,
 .view-commerce-backoffice-products .chzn-container-single .chzn-single div b,

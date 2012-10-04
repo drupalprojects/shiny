@@ -150,30 +150,16 @@ h1, h2, h3, h4, h5, h6, ul.admin-list li a, div.breadcrumb, fieldset .fieldset-l
 
 /* Form Overrides */
 fieldset.form-wrapper {
-  border: 0;
   margin-bottom: 2em;
 }
 
 fieldset.collapsed {
-  min-height: 50px;
   padding: 25px 15px;
 }
 
 fieldset .fieldset-legend {
-  border-bottom: 1px solid #ccc;
-  font-weight: 700;
-  margin: 0 0 0 15px;
-  /* LTR */
-  padding: 5px 0 5px 0;
-  text-transform: none;
-  width: 97%;
-}
-
-fieldset.collapsible .fieldset-legend {
-  color: #585858;
-  font-size: 15px;
-  font-weight: 700;
-  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 fieldset.collapsible .fieldset-legend a {
@@ -212,11 +198,6 @@ input.form-file {
   margin: 1px;
   max-width: 100%;
   padding: 5px;
-}
-
-input.form-text,
-textarea.form-textarea {
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
 textarea.form-textarea {

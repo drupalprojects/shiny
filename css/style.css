@@ -683,7 +683,6 @@ fieldset .fieldset-legend {
   padding-left: 15px;
   /* LTR */
   position: absolute;
-  text-transform: uppercase;
 }
 
 fieldset .fieldset-wrapper {
