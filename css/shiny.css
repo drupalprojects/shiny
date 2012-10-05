@@ -364,7 +364,9 @@ select.form-select:focus {
 }
 
 body.in-maintenance fieldset.form-wrapper {
+  border: 0;
   max-width: 530px;
+  padding-top: 3em;
 }
 
 body.in-maintenance select.form-select {
