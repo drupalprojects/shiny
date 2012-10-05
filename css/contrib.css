@@ -795,6 +795,9 @@ html.js #-commerce-kickstart-help-store fieldset.collapsible {
   margin-bottom: .5em;
   width: auto;
 }
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-top: 0;
+}
 
 #views-exposed-form-commerce-discount-overview-default .views-exposed-form .views-reset-button input.form-submit {
   margin-top: 0;
@@ -1199,8 +1202,7 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper {
 
 .chzn-container-single .chzn-single span {
   color: #999;
-  margin-right: 29px;
-  /* LTR */
+  margin-right: 0;
   -webkit-font-smoothing: subpixel-antialiased;
 }
 

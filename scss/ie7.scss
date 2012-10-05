@@ -21,3 +21,19 @@ ul.primary li.active a {
 ul.admin-list li {
   position: static;
 }
+
+.breadcrumb span {
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+/* IE 7 width changes */
+.view-admin-content-main {
+  .chzn-container-single .chzn-single,
+  .chzn-container-single .chzn-single span {
+    width: 150px;
+  }
+}
+.view-admin-content-main .views-exposed-form .views-widget-filter-title {
+  width: 200px;
+}
