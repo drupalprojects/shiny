@@ -92,7 +92,7 @@
 
 .field-type-commerce-product-reference > div > div.form-wrapper > fieldset > div.fieldset-wrapper {
   border: 1px solid #ccc;
-  padding: 15px;
+  padding: 5px 15px;
 }
 .field-type-commerce-product-reference > div > div.form-wrapper > fieldset > div.fieldset-wrapper > fieldset .fieldset-wrapper,
 .field-type-commerce-product-reference > div > div.form-wrapper > fieldset > div.fieldset-wrapper > fieldset .fieldset-legend {
@@ -102,7 +102,7 @@
   /* LTR */
 }
 .field-type-commerce-product-reference > div > div.form-wrapper > fieldset > div.fieldset-wrapper > fieldset .fieldset-wrapper {
-  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit,
@@ -153,7 +153,7 @@
 .field-widget-inline-entity-form fieldset .tabledrag-toggle-weight-wrapper {
   float: right;
   /* LTR */
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .field-widget-inline-entity-form fieldset.ief-entity-fieldset,
