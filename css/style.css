@@ -738,6 +738,7 @@ div.teaser-checkbox .form-item,
 
 .form-item label.option {
   font-size: 0.923em;
+  padding-left: 5px;
   text-transform: none;
 }
 
