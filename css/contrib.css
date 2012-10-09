@@ -6,8 +6,7 @@
 /* Import Base Styles and Functions */
 .form-item,
 .form-item .form-item {
-  margin-bottom: 0;
-  margin-top: 9px;
+  margin-bottom: 10px;
   padding-bottom: 0;
   padding-top: 0;
 }
@@ -50,7 +49,7 @@
 .field-widget-inline-entity-form .fieldset-wrapper {
   background: transparent;
   outline: 0;
-  padding: 0;
+  padding: 10px 0 0;
 }
 
 .field-widget-inline-entity-form .ief-form-bottom {

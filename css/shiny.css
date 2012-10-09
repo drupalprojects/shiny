@@ -799,6 +799,10 @@ a.button:active {
   text-shadow: 0 -1px 1px white;
 }
 
+a.button {
+  display: inline-block;
+}
+
 /* Fix padding issue in Firefox */
 @-moz-document url-prefix() {
   input.form-submit {
@@ -971,6 +975,13 @@ table td {
 
 table.sticky-header {
   z-index: 99;
+}
+
+form .field-multiple-table {
+  margin-bottom: 10px;
+}
+form .field-multiple-table th.field-label {
+  padding-left: 15px;
 }
 
 #views-form-commerce-orders-admin-page table td.views-field-commerce-order-total,
