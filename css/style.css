@@ -585,7 +585,7 @@ table th {
 }
 
 table th.active {
-  background: #bdbeb9;
+  background: #d5d5d5;
 }
 
 table th a {
@@ -606,11 +606,11 @@ table th.active img {
 }
 
 table td.active {
-  background: #e9e9dd;
+  background: #e5e5e5;
 }
 
 table tr.odd td.active {
-  background: #f3f4ee;
+  background: #f2f2f2;
 }
 
 table tr.selected td.active,
