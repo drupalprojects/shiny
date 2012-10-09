@@ -312,6 +312,9 @@ table th {
  * The contents of the popup dialog on the views edit form.
  */
 
+.views-ui-dialog #views-ajax-popup {
+  background: #f0f0f0;
+}
 .views-ui-dialog .ui-dialog-titlebar-close {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -320,12 +323,20 @@ table th {
   right: -27px; /* LTR */
   top: -1px;
 }
+.views-ui-dialog .scroll {
+  background: #ffffff;
+}
 .views-ui-dialog fieldset.collapsible {
   padding-top: 1.5em;
 }
 .views-ui-dialog fieldset.collapsed {
-  padding-top: 2.5em;
+  padding-top: 20px;
 }
+.ui-dialog-content .form-item,
+.ui-dialog-content .form-item .form-item {
+  clear: both;
+}
+
 .filterable-option .form-item.form-type-checkbox {
 /* This selector is aggressive because Seven's reset for .form-items is aggressive. */
   padding-bottom: 4px;
@@ -336,6 +347,10 @@ table th {
     left: 5px; /* LTR */
     top: 8px;
   }
+}
+
+.views-ui-dialog .form-buttons {
+  background: #f0f0f0;
 }
 /* @end */
 
