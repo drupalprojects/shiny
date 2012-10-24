@@ -52,7 +52,7 @@
 #blocks tr td:last-child {
   border-left: 1px solid #BEBFB9;
 }
-.view-commerce-backoffice-order-messages #message-commerce-body-add-more-wrapper .resizable-textarea {
+.view-commerce-backoffice-order-messages .form-type-textarea .resizable-textarea {
   margin: 0 0 30px 2px;
 }
 html.js .view-filters fieldset.collapsible .fieldset-legend,
@@ -186,7 +186,7 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper{
 }
 .chzn-container-multi .chzn-choices {
   background: #fff url("../images/drop-filter-rtl.png") no-repeat left center;
-  
+
   li {
     float: right;
   }
