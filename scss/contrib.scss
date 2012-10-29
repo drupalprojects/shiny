@@ -736,6 +736,9 @@ html.js .views-exposed-form .form-item input.throbbing {
       display: none;
     }
   }
+  td.views-field-operations-dropbutton {
+    display: block;
+  }
 }
 /* Edit Checkboxes only in Webkit which will render properly. */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
