@@ -381,6 +381,10 @@ div.views-megarow-content {
 .commerce-backoffice-view div.views-megarow-content .megarow-header {
   background-image: url("../images/mega-arrow.png");
 }
+/* Comments View Fix */
+.view-commerce-backoffice-comments .vbo-views-form {
+  padding-top: 45px;
+}
 /* Customizing the View Filters */
 html.js .view-filters fieldset.collapsible,
 html.js .vbo-views-form fieldset,
