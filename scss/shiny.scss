@@ -304,11 +304,54 @@ select.form-select {
     color: #000;
   }
 }
-/* Targeting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+/* Form Fixes for Webkit Browsers. */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   select.form-select {
     padding: 5px 35px 5px 5px; /* LTR */
     background: #fff url("../images/drop-filter.png") no-repeat right center; /* LTR */
+  }
+  form table {
+
+    input.form-checkbox,
+    input.form-radio {
+      -webkit-appearance: none;
+      appearance: none;
+      border: 0;
+      opacity: 1;
+      height: 20px;
+      width: 20px;
+      background: transparent url("../images/toggles.png") no-repeat 0 0;
+    }
+    input.form-checkbox:checked {
+      background-position: 0 -20px;
+    }
+    input.form-radio {
+      background-position: 0 -40px;
+    }
+    input.form-radio:checked {
+      background-position: 0 -60px;
+    }
+    .form-disabled input.form-checkbox {
+      opacity: .4;
+    }
+  }
+}
+/* Form Fix for Firefox */
+@-moz-document url-prefix() {
+  form table {
+    input.form-checkbox,
+    input.form-radio {
+      opacity: 1;
+      height: auto;
+      width: auto;
+    }
+  }
+}
+/* Form Fix for Opera */
+noindex:-o-prefocus, form table {
+  input.form-checkbox,
+  input.form-radio {
+    opacity: 1;
   }
 }
 .exposed-filters .form-item label {

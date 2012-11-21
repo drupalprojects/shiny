@@ -901,12 +901,6 @@ html.js .views-exposed-form .form-item input.throbbing {
   form table #edit-select .fieldset-wrapper input.form-submit {
     padding: 1px 20px;
   }
-  form table input.form-checkbox,
-  form table input.form-radio {
-    opacity: 1;
-    height: auto;
-    width: auto;
-  }
 
   .vbo-views-form #edit-select .fieldset-wrapper input.form-submit {
     padding: 2px 20px;
@@ -929,26 +923,6 @@ html.js .views-exposed-form .form-item input.throbbing {
 
 /* Edit Checkboxes only in Webkit which will render properly. */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-  form table input.form-checkbox,
-  form table input.form-radio {
-    -webkit-appearance: none;
-    appearance: none;
-    border: 0;
-    opacity: 1;
-    height: 20px;
-    width: 20px;
-    background: transparent url("../images/toggles.png") no-repeat 0 0;
-  }
-  form table input.form-checkbox:checked {
-    background-position: 0 -20px;
-  }
-  form table input.form-radio {
-    background-position: 0 -40px;
-  }
-  form table input.form-radio:checked {
-    background-position: 0 -60px;
-  }
-
   .commerce-backoffice-view .vbo-views-form #edit-select .fieldset-wrapper {
     padding: 3px 0 0 20px;
     /* LTR */
@@ -966,12 +940,6 @@ html.js .views-exposed-form .form-item input.throbbing {
     background-position: 0 -20px;
   }
 }
-/* Fix for Opera */
-noindex:-o-prefocus input.form-checkbox,
-noindex:-o-prefocus input.form-radio, form table input.form-checkbox, form table input.form-radio {
-  opacity: 1;
-}
-
 /* Bulk Operations Select */
 .vbo-views-form .form-item-operation {
   float: left;
