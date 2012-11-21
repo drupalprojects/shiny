@@ -477,7 +477,8 @@ tr td:last-child {
 
 .view-commerce-backoffice-order-messages .commerce_order_state,
 .view-commerce-backoffice-order-messages .commerce_order_admin_comment,
-.view-commerce-backoffice-order-messages .commerce_order_payment_entered {
+.view-commerce-backoffice-order-messages .commerce_order_payment_entered,
+.view-commerce-backoffice-order-messages .commerce_order_payment_full {
   border: 1px solid #d8d8d8;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
