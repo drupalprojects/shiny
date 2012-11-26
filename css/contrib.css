@@ -291,6 +291,17 @@ tr.even {
   /* LTR */
 }
 
+/* Handle Radios and Checkboxes a bit differently */
+.ief-product-details .form-type-radio,
+.ief-product-details .form-type-checkbox {
+  clear: left;
+  /* LTR */
+}
+.ief-product-details .form-type-radio label,
+.ief-product-details .form-type-checkbox label {
+  float: none;
+}
+
 #module-filter-squeeze .form-item-module-filter-name {
   clear: none;
 }
