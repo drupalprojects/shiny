@@ -394,6 +394,7 @@ tr.even {
 
 .entity-commerce-order .field-name-commerce-order-total {
   background: transparent;
+  float: right;
 }
 
 .entity-commerce-order .field-name-commerce-order-total .field-items {
@@ -404,6 +405,15 @@ tr.even {
   border-radius: 10px;
   margin-bottom: 30px;
   padding: 8px 15px;
+}
+
+.commerce-order-commerce-order .field-type-commerce-customer-profile-reference {
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.entity-commerce-order .field-name-commerce-order-total .field-items table {
+  width: 100%;
 }
 
 .entity-commerce-order .field-name-commerce-order-total .field-items tr.even,
@@ -459,7 +469,7 @@ tr td:last-child {
   padding-bottom: 10px;
 }
 
-.view-commerce-backoffice-order-messages th {
+.commerce-order-commerce-order .view-commerce-backoffice-order-messages th {
   background: transparent url("../images/th-border.gif") repeat-x 0 bottom;
   border: 1px solid #d8d8d8;
   border-width: 0 0 1px 0;
@@ -479,17 +489,20 @@ tr td:last-child {
   border-top: 1px solid #d8d8d8;
 }
 
-.view-commerce-backoffice-order-messages tr.odd,
-.view-commerce-backoffice-order-messages tr.even {
+.commerce-order-commerce-order .view-commerce-backoffice-order-messages tr.odd,
+.commerce-order-commerce-order .view-commerce-backoffice-order-messages tr.even {
   background: transparent;
   border: 1px solid #d8d8d8;
   border-width: 0 0 1px 0;
 }
 
+.view-commerce-backoffice-order-messages .commerce_order_created,
 .view-commerce-backoffice-order-messages .commerce_order_state,
 .view-commerce-backoffice-order-messages .commerce_order_admin_comment,
 .view-commerce-backoffice-order-messages .commerce_order_payment_entered,
-.view-commerce-backoffice-order-messages .commerce_order_payment_full {
+.view-commerce-backoffice-order-messages .commerce_order_payment_full,
+.view-commerce-backoffice-order-messages .commerce_order_cart_add {
+  background: #fff;
   border: 1px solid #d8d8d8;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -553,7 +566,8 @@ div.views-megarow-content {
 /* Customizing the View Filters */
 html.js .view-filters fieldset.collapsible,
 html.js .vbo-views-form fieldset,
-html.js .vbo-views-form .fieldset-wrapper {
+html.js .vbo-views-form .fieldset-wrapper,
+html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible {
   background: transparent;
   border: 0;
   height: auto;
@@ -774,16 +788,27 @@ td.views-field-operations-dropbutton .ctools-dropbutton-processed {
   border: 1px solid #ccc;
 }
 
-.field-type-commerce-line-item-reference .add-line-item .form-submit {
-  margin-top: 11px;
+.field-type-commerce-line-item-reference .add-line-item {
+  padding-top: 11px;
+}
+.field-type-commerce-line-item-reference .add-line-item .form-type-select {
+  padding-top: 2px;
 }
 
+.field-type-commerce-line-item-reference .add-line-item
 .field-name-commerce-discounts input.field-add-more-submit {
   margin-top: 20px;
 }
 
-.view-commerce-payment-order #commerce-payment-order-transaction-add-form .add-payment input.form-submit {
-  margin-top: 9px;
+.view-commerce-payment-order #commerce-payment-order-transaction-add-form .add-payment {
+  padding-top: 9px;
+  clear: left;
+}
+.view-commerce-payment-order #commerce-payment-order-transaction-add-form .add-payment .form-item-payment-method {
+  padding-top: 1px;
+}
+.view-commerce-payment-order #commerce-payment-order-transaction-add-form .add-payment .form-submit {
+  margin-top: 0;
 }
 
 .view-commerce-discount-overview .views-reset-button input.form-submit {
