@@ -493,8 +493,7 @@ ul.admin-list {
   padding: 0;
 }
 
-.admin-panel .item-list ul,
-ul.admin-list.compact {
+.admin-panel .item-list ul {
   margin: 8px 0;
 }
 
