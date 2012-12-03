@@ -1006,6 +1006,29 @@ html.js .views-exposed-form .form-item input.throbbing {
   .vbo-select-all-markup .vbo-fieldset-select-all input.form-checkbox:checked {
     background-position: 0 -20px;
   }
+
+  #taxonomy-manager-tree input.form-checkbox,
+  #taxonomy-manager-tree input.form-radio {
+    -webkit-appearance: none;
+    appearance: none;
+    border: 0;
+    opacity: 1;
+    height: 20px;
+    width: 20px;
+    background: transparent url("../images/toggles.png") no-repeat 0 0;
+  }
+  #taxonomy-manager-tree input.form-checkbox:checked {
+    background-position: 0 -20px;
+  }
+  #taxonomy-manager-tree input.form-radio {
+    background-position: 0 -40px;
+  }
+  #taxonomy-manager-tree input.form-radio:checked {
+    background-position: 0 -60px;
+  }
+  #taxonomy-manager-tree .form-disabled input.form-checkbox {
+    opacity: .4;
+  }
 }
 /* Bulk Operations Select */
 .vbo-views-form .form-item-operation {
