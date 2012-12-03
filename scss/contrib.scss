@@ -87,6 +87,10 @@
     padding-left: 0; /* LTR */
     margin-left: 0; /* LTR */
   }
+  fieldset.collapsible .fieldset-legend {
+    padding-left: 15px; /* LTR */
+    margin-top: 0;
+  }
   > fieldset .fieldset-wrapper {
     margin-top: 10px;
   }
@@ -97,6 +101,10 @@
 }
 .field-widget-inline-entity-form fieldset {
   padding: 1.5em 0 0;
+
+  fieldset {
+    padding: 2em 0 0;
+  }
 }
 .field-widget-inline-entity-form > fieldset {
   padding: 2em 0 0;
@@ -191,10 +199,15 @@ tr.even {
   color: #36a2f6;
   padding: 0;
 }
-.ief-product-attributes .form-wrapper,
-.ief-product-details .form-wrapper {
+.ief-product-attributes > .fieldset-wrapper > .form-wrapper,
+.ief-product-details > .fieldset-wrapper > .form-wrapper {
   float: left; /* LTR */
   margin-right: 25px; /* LTR */
+}
+/* Commerce File Correction */
+.ief-product-details > .fieldset-wrapper > .field-type-commerce-file {
+  float: none;
+  clear: left;
 }
 .field-widget-inline-entity-form .fieldset-legend {
   left: 0; /* LTR */
@@ -205,6 +218,10 @@ tr.even {
 .field-widget-inline-entity-form .fieldset-wrapper .fieldset-wrapper .fieldset-legend {
   padding: 3px 0;
 }
+.field-widget-inline-entity-form .fieldset-wrapper .collapsible .fieldset-legend {
+  padding-left: 15px;
+  margin-top: 0;
+}
 .ief-product-details .fieldset-wrapper {
   width: 33%
 }
@@ -213,6 +230,10 @@ tr.even {
   margin-right: 10px; /* LTR */
 }
 /* Handle Radios and Checkboxes a bit differently */
+.ief-product-details .form-radios,
+.ief-product-details .form-checkboxes {
+  display: inline-block;
+}
 .ief-product-details .form-type-radio,
 .ief-product-details .form-type-checkbox {
   float: left; /* LTR */
@@ -220,6 +241,10 @@ tr.even {
   label {
     float: none;
   }
+}
+.ief-product-details fieldset .form-type-radio,
+.ief-product-details fieldset .form-type-checkbox {
+  clear: left; /* LTR */
 }
 #module-filter-squeeze .form-item-module-filter-name {
   clear: none;
