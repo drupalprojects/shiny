@@ -105,8 +105,10 @@ input.form-radio + label::before {
   width: auto;
 }
 .breadcrumb a, .breadcrumb span {
-  float: none;
   margin: 0 0 0 5px;
+}
+.breadcrumb span {
+  background: transparent url("../images/breadcrumb-rtl.png") no-repeat 0 0;
 }
 
 #commerce-kickstart-inline-help #edit-commerce-kickstart-inline-help-close-button {

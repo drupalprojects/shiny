@@ -113,8 +113,11 @@ input.form-radio + label::before {
   width: auto;
 
   a, span {
-    float: none;
     margin: 0 0 0 5px;
+  }
+
+  span {
+    background: transparent url("../images/breadcrumb-rtl.png") no-repeat 0 0;
   }
 }
 
