@@ -427,6 +427,11 @@ div.views-megarow-content {
 .commerce-backoffice-view div.views-megarow-content .megarow-header {
   background-image: url("../images/mega-arrow.png");
 }
+.field-widget-inline-entity-form tr.ief-row-form .ief-form-row {
+  background: transparent url("../images/mega-arrow.png") no-repeat 50px -1px;
+  display: inline-block;
+  width: 100%;
+}
 /* Comments View Fix */
 .view-commerce-backoffice-comments .vbo-views-form {
   padding-top: 45px;
@@ -764,6 +769,9 @@ html.js .views-exposed-form .form-item input.throbbing {
   }
   td.views-field-operations-dropbutton {
     display: block;
+  }
+  .field-widget-inline-entity-form tr.ief-row-form .ief-form-row {
+    margin-top: -1px;
   }
 }
 /* Edit Checkboxes only in Webkit which will render properly. */

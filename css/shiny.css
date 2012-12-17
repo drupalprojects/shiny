@@ -386,6 +386,10 @@ select.form-select:focus {
     height: auto;
     width: auto;
   }
+  form table .fieldset-wrapper input.form-radio,
+  form table .fieldset-wrapper input.form-checkbox {
+    opacity: 0;
+  }
 }
 
 /* Form Fix for Opera */

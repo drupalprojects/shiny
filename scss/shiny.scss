@@ -248,7 +248,7 @@ input.form-radio + label {
 }
 /* Using "foo" to make unsupporting browsers ignore */
 #foo:checked::before,
-input.form-checkbox,
+input.form-checkbox ,
 input.form-radio {
   opacity: 0;
   width: 20px;
@@ -344,6 +344,10 @@ select.form-select {
       opacity: 1;
       height: auto;
       width: auto;
+    }
+    .fieldset-wrapper input.form-radio,
+    .fieldset-wrapper input.form-checkbox {
+      opacity: 0;
     }
   }
 }
