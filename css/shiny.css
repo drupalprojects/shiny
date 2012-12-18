@@ -901,7 +901,7 @@ ul.action-links li {
 .form-actions #edit-submit,
 .form-actions #edit-save,
 ul.action-links li,
-html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a,
+html.js .view-commerce-message-messages .view-footer fieldset.collapsible .fieldset-legend a,
 .field-widget-inline-entity-form .container-inline input.form-submit,
 input.ief-entity-submit {
   background: #2f88cd;
@@ -928,7 +928,7 @@ input.ief-entity-submit {
 .form-actions #edit-submit:focus,
 .form-actions #edit-save:focus,
 ul.action-links li:focus,
-html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:focus,
+html.js .view-commerce-message-messages .view-footer fieldset.collapsible .fieldset-legend a:focus,
 .field-widget-inline-entity-form .container-inline input.form-submit:focus,
 input.ief-entity-submit:focus {
   color: #fff;
@@ -940,9 +940,9 @@ input.ief-entity-submit:focus {
 ul.action-links li:hover,
 ul.action-links li:focus,
 ul.action-links li:active,
-html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:hover,
-html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:focus,
-html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a:active,
+html.js .view-commerce-message-messages .view-footer fieldset.collapsible .fieldset-legend a:hover,
+html.js .view-commerce-message-messages .view-footer fieldset.collapsible .fieldset-legend a:focus,
+html.js .view-commerce-message-messages .view-footer fieldset.collapsible .fieldset-legend a:active,
 .field-widget-inline-entity-form .container-inline input.form-submit:hover,
 .field-widget-inline-entity-form .container-inline input.form-submit:focus,
 .field-widget-inline-entity-form .container-inline input.form-submit:active,
@@ -960,7 +960,7 @@ input.ief-entity-submit:active {
   .form-actions #edit-submit,
   .form-actions #edit-save,
   ul.action-links li,
-  html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend a,
+  html.js .view-commerce-message-messages .view-footer fieldset.collapsible .fieldset-legend a,
   .field-widget-inline-entity-form .container-inline input.form-submit,
   input.ief-entity-submit {
     padding: 2px 30px;

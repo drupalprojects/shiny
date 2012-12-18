@@ -285,7 +285,7 @@ tr.even {
   margin-top: 0px;
 }
 .entity-commerce-order .commerce-backoffice-order-status-form .form-submit,
-.view-commerce-backoffice-order-messages #commerce-backoffice-message-form input.form-submit {
+.view-commerce-message-messages #commerce-backoffice-message-form input.form-submit {
   @include blue-button;
 }
 .field-name-commerce-customer-billing .name-block,
@@ -350,12 +350,12 @@ tr td:last-child {
 .content-right > div.field {
   border: 0;
 }
-.view-commerce-backoffice-order-messages h2 {
+.view-commerce-message-messages h2 {
   border-bottom: 10px solid #d8d8d8;
   font-weight: 500;
   padding-bottom: 10px;
 }
-.commerce-order-commerce-order .view-commerce-backoffice-order-messages th{
+.commerce-order-commerce-order .view-commerce-message-messages th{
   background: transparent url("../images/th-border.gif") repeat-x 0 bottom;
   border: 1px solid #d8d8d8;
   border-width: 0 0 1px 0;
@@ -366,24 +366,24 @@ tr td:last-child {
   font-weight: 500;
   margin-bottom: 2px;
 }
-.view-commerce-backoffice-order-messages tbody {
+.view-commerce-message-messages tbody {
   padding-top: 2px;
 }
-.view-commerce-backoffice-order-messages .views-row-first {
+.view-commerce-message-messages .views-row-first {
   border-top: 1px solid #d8d8d8;
 }
-.commerce-order-commerce-order .view-commerce-backoffice-order-messages tr.odd,
-.commerce-order-commerce-order .view-commerce-backoffice-order-messages tr.even {
+.commerce-order-commerce-order .view-commerce-message-messages tr.odd,
+.commerce-order-commerce-order .view-commerce-message-messages tr.even {
   background: transparent;
   border: 1px solid #d8d8d8;
   border-width: 0 0 1px 0;
 }
-.view-commerce-backoffice-order-messages .commerce_order_created,
-.view-commerce-backoffice-order-messages .commerce_order_state,
-.view-commerce-backoffice-order-messages .commerce_order_admin_comment,
-.view-commerce-backoffice-order-messages .commerce_order_payment_entered,
-.view-commerce-backoffice-order-messages .commerce_order_payment_full,
-.view-commerce-backoffice-order-messages .commerce_order_cart_add {
+.view-commerce-message-messages .commerce_order_created,
+.view-commerce-message-messages .commerce_order_state,
+.view-commerce-message-messages .commerce_order_admin_comment,
+.view-commerce-message-messages .commerce_order_payment_entered,
+.view-commerce-message-messages .commerce_order_payment_full,
+.view-commerce-message-messages .commerce_order_cart_add {
   background: #fff;
   border: 1px solid #d8d8d8;
   -moz-border-radius: 8px;
@@ -391,10 +391,10 @@ tr td:last-child {
   border-radius: 8px;
   padding: 2px 10px;
 }
-.view-commerce-backoffice-order-messages .form-type-textarea .resizable-textarea {
+.view-commerce-message-messages .form-type-textarea .resizable-textarea {
   margin: 0 2px 30px 0; /* LTR */
 }
-.view-commerce-backoffice-order-messages .form-type-textarea .filter-wrapper {
+.view-commerce-message-messages .form-type-textarea .filter-wrapper {
   border: 1px solid #eee;
   padding: 0 15px 10px;
 }
@@ -405,16 +405,16 @@ tr td:last-child {
 .commerce-backoffice-view tr.views-row-active td {
   background: transparent;
 }
-.view-commerce-backoffice-order-messages {
+.view-commerce-message-messages {
   margin-bottom: 20px;
 }
-.view-commerce-backoffice-order-messages > .view-footer {
+.view-commerce-message-messages > .view-footer {
   padding-top: 20px;
 }
-.view-commerce-backoffice-order-messages form > div > fieldset > legend {
+.view-commerce-message-messages form > div > fieldset > legend {
   height: 30px;
 }
-.view-commerce-backoffice-order-messages form > div > fieldset > legend .fieldset-legend {
+.view-commerce-message-messages form > div > fieldset > legend .fieldset-legend {
   margin: 0 0 10px 0;
   border: 0;
 }
@@ -440,7 +440,7 @@ div.views-megarow-content {
 html.js .view-filters fieldset.collapsible,
 html.js .vbo-views-form fieldset,
 html.js .vbo-views-form .fieldset-wrapper,
-html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible {
+html.js .view-commerce-message-messages .view-footer fieldset.collapsible {
   background: transparent;
   border: 0;
   height: auto;
@@ -474,7 +474,7 @@ html.js .view-filters fieldset.collapsible .fieldset-legend {
 html.js .vbo-views-form fieldset .fieldset-legend {
   background: transparent url("../images/bulk-update.png") no-repeat 0 0;
 }
-html.js .view-commerce-backoffice-order-messages .view-footer fieldset.collapsible .fieldset-legend {
+html.js .view-commerce-message-messages .view-footer fieldset.collapsible .fieldset-legend {
   background: transparent;
   padding-left: 0; /* LTR */
   text-transform: none;
