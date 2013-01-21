@@ -822,6 +822,15 @@ html.js .views-exposed-form .form-item input.throbbing {
     }
   }
 }
+/* Form Fix for Firefox */
+@-moz-document url-prefix() {
+  #taxonomy-manager-tree {
+    input.form-checkbox,
+    input.form-radio {
+      opacity: 1;
+    }
+  }
+}
 /* Bulk Operations Select */
 .vbo-views-form .form-item-operation {
   float: left; /* LTR */
