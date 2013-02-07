@@ -137,5 +137,4 @@ function shiny_preprocess_overlay(&$variables) {
   } else {
     $variables['breadcrumb'] = theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb()));
   }
-  //dpm(get_defined_vars());
 }
