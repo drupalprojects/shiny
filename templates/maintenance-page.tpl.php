@@ -43,7 +43,7 @@
       </div>
     </div>
   </div>
-    <div class="footer-messages clearfix">
+    <div id="footer" class="footer-messages clearfix">
     <div id="credit" class="clearfix">
       <div class="message">Proudly built by</div>
       <div class="logo"><a href="http://commerceguys.com">Commerce Guys</a></div>

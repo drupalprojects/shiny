@@ -1056,7 +1056,7 @@ ol.task-list li.done {
 
 .overlay #branding h1.page-title,
 .overlay #left,
-.overlay #footer {
+.overlay #feed-icons {
   display: none;
 }
 

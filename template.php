@@ -138,3 +138,9 @@ function shiny_preprocess_overlay(&$variables) {
     $variables['breadcrumb'] = theme('breadcrumb', array('breadcrumb' => drupal_get_breadcrumb()));
   }
 }
+
+function shiny_system_info_alter(&$info, $file, $type) {
+  if ($type == 'theme') {
+    $info['overlay_regions'][] = 'footer';
+  }
+}
