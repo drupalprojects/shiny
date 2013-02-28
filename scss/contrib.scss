@@ -646,17 +646,6 @@ td.views-field-operations-dropbutton {
   margin-top: 23px;
 }
 
-/* Help Overrides */
-#-commerce-kickstart-help-store .search .form-item {
-  width: 85%;
-}
-#-commerce-kickstart-help-store a.search-submit {
-  margin-top: 0;
-}
-html.js #-commerce-kickstart-help-store fieldset.collapsible {
-  min-height: 55px;
-}
-
 /* Manage Products */
 .views-exposed-form {
 
@@ -1084,13 +1073,6 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper{
 #foo:checked::before,
 .vertical-tabs-pane .fieldset-wrapper > div.form-type-checkbox:first-child {
   padding-top: 0;
-}
-/**
- * @TODO Need to get Help fixed in CK
- */
-#commerce-kickstart-inline-help-button #edit-commerce-kickstart-inline-help-button {
-  margin-top: 10px;
-  margin-bottom: -50px;
 }
 
 /* Admin module link fix */
