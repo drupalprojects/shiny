@@ -565,6 +565,13 @@ table td {
 }
 table.sticky-header {
   z-index: 99;
+  border-bottom: 0;
+  -moz-box-shadow: 0 1px 1px #bebfb9;
+  -webkit-box-shadow: 0 1px 1px #bebfb9;
+  box-shadow: 0 1px 1px #bebfb9;
+  th {
+    border-bottom: 0;
+  }
 }
 form .field-multiple-table {
   margin-bottom: 10px;
