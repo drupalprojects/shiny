@@ -769,6 +769,13 @@ table.sticky-header th {
   border-bottom: 0;
 }
 
+/* Firefox fix for Sticky Table Headers */
+@-moz-document url-prefix() {
+  table.sticky-header thead {
+    display: table-header-group !important;
+  }
+}
+
 form .field-multiple-table {
   margin-bottom: 10px;
 }

@@ -569,8 +569,15 @@ table.sticky-header {
   -moz-box-shadow: 0 1px 1px #bebfb9;
   -webkit-box-shadow: 0 1px 1px #bebfb9;
   box-shadow: 0 1px 1px #bebfb9;
+
   th {
     border-bottom: 0;
+  }
+}
+/* Firefox fix for Sticky Table Headers */
+@-moz-document url-prefix() {
+  table.sticky-header thead {
+    display: table-header-group !important;
   }
 }
 form .field-multiple-table {
