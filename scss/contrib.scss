@@ -1084,3 +1084,14 @@ div#admin-toolbar * {
 /* @end */
 
 /* @end */
+
+/* Features 1 & 2 Interface Fieldsets */
+html.js #features-export-form {
+
+  fieldset.collapsed {
+    padding: 19px 0;
+  }
+  fieldset.collapsible .fieldset-wrapper {
+    padding: 0 13px 13px 15px;
+  }
+}
