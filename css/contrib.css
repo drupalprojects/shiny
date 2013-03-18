@@ -269,14 +269,6 @@ tr.even {
   padding: 0;
 }
 
-.ief-product-attributes > .fieldset-wrapper > .form-wrapper,
-.ief-product-details > .fieldset-wrapper > .form-wrapper {
-  float: left;
-  /* LTR */
-  margin-right: 25px;
-  /* LTR */
-}
-
 /* Commerce File Correction */
 .ief-product-details > .fieldset-wrapper > .field-type-commerce-file {
   float: none;
