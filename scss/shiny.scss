@@ -339,6 +339,7 @@ h1#overlay-title {
 }
 #overlay-tabs,
 #branding ul.tabs {
+  clear: right; /* LTR */
   margin: 0;
   padding: 3px 0 0;
   position: relative;
