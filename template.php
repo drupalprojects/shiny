@@ -29,7 +29,7 @@ function shiny_preprocess_html(&$vars) {
   // Add conditional CSS for IE6.
   drupal_add_css(path_to_theme() . '/css/ie6.css', array('group' => CSS_THEME, 'browsers' => array('IE' => 'lte IE 6', '!IE' => FALSE), 'weight' => 999, 'preprocess' => FALSE));
   // Add external CSS for Open Sans from Google Fonts.
-  drupal_add_css('//fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800',array('type' => 'external'));
+  drupal_add_css('//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&subset=latin,latin-ext',array('type' => 'external'));
 }
 
 /**
