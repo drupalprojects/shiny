@@ -669,6 +669,91 @@ html.js .view-commerce-message-messages .view-footer fieldset.collapsible .field
 }
 
 /* Commerce discount. */
+.commerce-discount-form {
+  font-size: 0.95em;
+}
+.commerce-discount-form fieldset .fieldset-legend {
+  font-size: 14px;
+  font-weight: 700;
+}
+.commerce-discount-form div.form-item-commerce-discount-fields-inline-conditions-und-0-condition-settings-products input.form-autocomplete {
+  width: 300px;
+}
+.commerce-discount-form #foo:checked,
+.commerce-discount-form input.form-checkbox + label::before,
+.commerce-discount-form input.form-radio + label::before {
+  top: 7px;
+  left: 5px;
+  /* LTR */
+}
+.commerce-discount-form .form-item-commerce-discount-type.form-item .ajax-progress {
+  display: block;
+}
+.commerce-discount-form .form-item.form-type-radio .ajax-progress-throbber {
+  top: 7px;
+  left: 5px;
+  /* LTR */
+}
+.commerce-discount-form .field-name-commerce-discount-offer .form-type-radios > div .form-item .ajax-progress {
+  display: block;
+}
+.commerce-discount-form .field-name-commerce-discount-offer .form-type-radios > div .form-item .ajax-progress-throbber {
+  top: 7px;
+  left: 5px;
+  /* LTR */
+}
+.commerce-discount-form .inline-conditions-container .condition-wrapper .form-item .ajax-progress {
+  top: 5px;
+  left: 66px;
+  /* LTR */
+}
+.commerce-discount-form .commerce-discount-usage .form-item.form-type-select label {
+  font-weight: 700;
+}
+.commerce-discount-form #commerce-discount-fields-wrapper .start-date-wrapper label,
+.commerce-discount-form #commerce-discount-fields-wrapper .end-date-wrapper label {
+  box-sizing: -moz-box;
+  margin-top: 4px;
+}
+.commerce-discount-form .commerce-discount-usage .field-type-number-integer {
+  margin-top: 10px;
+}
+
+.commerce-discount-form .form-item-label {
+  padding-bottom: 10px;
+}
+
+.commerce-discount-form .field-name-commerce-discount-date .fieldset-wrapper {
+  background: none;
+  border: 0;
+  outline: 0;
+  margin-left: 0;
+  /* LTR */
+}
+
+.commerce-discount-form .field-type-datestamp .fieldset-legend {
+  margin-left: 0;
+  /* LTR */
+}
+
+.commerce-discount-form .field-name-commerce-discount-date .fieldset-wrapper input {
+  background-position: 100px 3px !important;
+  height: 25px;
+  width: 120px !important;
+}
+
+.commerce-discount-form #edit-actions {
+  margin-top: 20px;
+}
+
+td.views-field-operations-dropbutton {
+  position: relative;
+}
+td.views-field-operations-dropbutton .ctools-dropbutton-processed {
+  position: absolute;
+  top: 18px;
+}
+
 .view-commerce-discount-overview td.views-field-enable-disable * {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -787,12 +872,6 @@ td.views-field-operations-dropbutton .ctools-dropbutton-processed {
 
 #commerce-discount-fields-wrapper .form-item-commerce-discount-fields-commerce-discount-offer-und-form-type {
   margin-bottom: 9px;
-}
-
-#commerce-discount-fields-wrapper .start-date-wrapper label,
-#commerce-discount-fields-wrapper .end-date-wrapper label {
-  box-sizing: -moz-box;
-  margin-top: 9px;
 }
 
 .field-name-commerce-discount-offer .form-wrapper {
@@ -1093,7 +1172,7 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper {
   background-image: -moz-linear-gradient(-90deg, white 0px, #efeded 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
   background-image: -webkit-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: linear-gradient(-90deg, #ffffff 0px, #efeded 100%);
+  background-image: linear-gradient(-90deg, white 0px, #efeded 100%);
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -1110,14 +1189,14 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper {
   background-image: -moz-linear-gradient(-90deg, white 0px, #efeded 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
   background-image: -webkit-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: linear-gradient(-90deg, #ffffff 0px, #efeded 100%);
+  background-image: linear-gradient(-90deg, white 0px, #efeded 100%);
 }
 
 .ctools-dropbutton-processed.open:hover {
   background-image: -moz-linear-gradient(-90deg, white 0px, #efeded 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
   background-image: -webkit-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: linear-gradient(-90deg, #ffffff 0px, #efeded 100%);
+  background-image: linear-gradient(-90deg, white 0px, #efeded 100%);
 }
 
 .ctools-dropbutton-processed.open {

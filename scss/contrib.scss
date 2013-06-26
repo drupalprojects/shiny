@@ -495,6 +495,92 @@ html.js .view-commerce-message-messages .view-footer fieldset.collapsible .field
 }
 
 /* Commerce discount. */
+.commerce-discount-form {
+  font-size: 0.95em;
+
+  fieldset .fieldset-legend {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  div.form-item-commerce-discount-fields-inline-conditions-und-0-condition-settings-products {
+    input.form-autocomplete {
+      width: 300px;
+    }
+  }
+
+  #foo:checked,
+  input.form-checkbox + label::before,
+  input.form-radio + label::before {
+    top: 7px;
+    left: 5px; /* LTR */
+  }
+
+  .form-item-commerce-discount-type.form-item .ajax-progress {
+    display: block;
+  }
+  .form-item.form-type-radio .ajax-progress-throbber {
+    top: 7px;
+    left: 5px; /* LTR */
+  }
+  .field-name-commerce-discount-offer {
+    .form-type-radios > div {
+      .form-item {
+        .ajax-progress {
+          display: block;
+        }
+        .ajax-progress-throbber {
+          top: 7px;
+          left: 5px; /* LTR */
+        }
+      }
+    }
+  }
+  .inline-conditions-container .condition-wrapper .form-item .ajax-progress {
+    top: 5px;
+    left: 66px; /* LTR */
+  }
+
+  .commerce-discount-usage .form-item.form-type-select label {
+    font-weight: 700;
+  }
+  #commerce-discount-fields-wrapper .start-date-wrapper label,
+  #commerce-discount-fields-wrapper .end-date-wrapper label {
+    box-sizing: -moz-box;
+    margin-top: 4px;
+  }
+  .commerce-discount-usage .field-type-number-integer {
+    margin-top: 10px;
+  }
+}
+.commerce-discount-form .form-item-label {
+  padding-bottom: 10px;
+}
+.commerce-discount-form .field-name-commerce-discount-date .fieldset-wrapper {
+  background: none;
+  border: 0;
+  outline: 0;
+  margin-left: 0; /* LTR */
+}
+.commerce-discount-form .field-type-datestamp .fieldset-legend {
+  margin-left: 0; /* LTR */
+}
+.commerce-discount-form .field-name-commerce-discount-date .fieldset-wrapper input {
+  background-position: 100px 3px !important;
+  height: 25px;
+  width: 120px !important;
+}
+.commerce-discount-form #edit-actions {
+  margin-top: 20px;
+}
+
+td.views-field-operations-dropbutton {
+  position: relative;
+
+  .ctools-dropbutton-processed {
+    position: absolute;
+    top: 18px;
+  }
+}
 .view-commerce-discount-overview td.views-field-enable-disable * {
   -moz-box-sizing: content-box;
   -webkit-box-sizing: content-box;
@@ -592,11 +678,6 @@ td.views-field-operations-dropbutton {
 }
 #commerce-discount-fields-wrapper .form-item-commerce-discount-fields-commerce-discount-offer-und-form-type {
   margin-bottom: 9px;
-}
-#commerce-discount-fields-wrapper .start-date-wrapper label,
-#commerce-discount-fields-wrapper .end-date-wrapper label {
-  box-sizing: -moz-box;
-  margin-top: 9px;
 }
 .field-name-commerce-discount-offer .form-wrapper {
   padding-top: 5px;
