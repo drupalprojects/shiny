@@ -109,6 +109,9 @@
 .field-type-commerce-product-reference > div > div.form-wrapper > fieldset > div.fieldset-wrapper > fieldset .fieldset-wrapper {
   margin-top: 10px;
 }
+.field-type-commerce-product-reference > div > div.form-wrapper > fieldset > div.fieldset-wrapper > fieldset .field-type-image .fieldset-wrapper {
+  margin-top: 0;
+}
 
 .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit,
 .ief-row-form .ief-entity-submit {
@@ -162,14 +165,22 @@
 .field-widget-inline-entity-form fieldset .tabledrag-toggle-weight-wrapper {
   float: right;
   /* LTR */
-  margin-top: -20px;
+  margin-top: -5px;
 }
 
 .field-widget-inline-entity-form fieldset.ief-entity-fieldset,
-.ief-form-bottom > legend .fieldset-legend {
+.ief-form-bottom > legend .fieldset-legend,
+.field-widget-inline-entity-form .field-type-image fieldset.form-wrapper {
   background: transparent;
   border: 0;
   margin: 0;
+}
+
+.field-widget-inline-entity-form .field-type-image .form-item label {
+  float: none;
+}
+.field-widget-inline-entity-form .field-type-image .description {
+  padding-bottom: 10px;
 }
 
 .field-widget-inline-entity-form fieldset.ief-entity-fieldset .fieldset-legend {
@@ -585,6 +596,7 @@ div.views-megarow-content {
 .field-widget-inline-entity-form tr.ief-row-form .ief-form-row {
   background: transparent url("../images/mega-arrow.png") no-repeat 50px -1px;
   display: inline-block;
+  margin-top: -1px;
   width: 100%;
 }
 
@@ -1172,7 +1184,7 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper {
   background-image: -moz-linear-gradient(-90deg, white 0px, #efeded 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
   background-image: -webkit-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: linear-gradient(-90deg, white 0px, #efeded 100%);
+  background-image: linear-gradient(-90deg, #ffffff 0px, #efeded 100%);
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -1189,14 +1201,14 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper {
   background-image: -moz-linear-gradient(-90deg, white 0px, #efeded 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
   background-image: -webkit-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: linear-gradient(-90deg, white 0px, #efeded 100%);
+  background-image: linear-gradient(-90deg, #ffffff 0px, #efeded 100%);
 }
 
 .ctools-dropbutton-processed.open:hover {
   background-image: -moz-linear-gradient(-90deg, white 0px, #efeded 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
   background-image: -webkit-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: linear-gradient(-90deg, white 0px, #efeded 100%);
+  background-image: linear-gradient(-90deg, #ffffff 0px, #efeded 100%);
 }
 
 .ctools-dropbutton-processed.open {

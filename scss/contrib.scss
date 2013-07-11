@@ -94,6 +94,9 @@
   > fieldset .fieldset-wrapper {
     margin-top: 10px;
   }
+  > fieldset .field-type-image .fieldset-wrapper {
+    margin-top: 0;
+  }
 }
 .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit,
 .ief-row-form .ief-entity-submit {
@@ -111,13 +114,22 @@
 }
 .field-widget-inline-entity-form fieldset .tabledrag-toggle-weight-wrapper {
   float: right; /* LTR */
-  margin-top: -20px;
+  margin-top: -5px;
 }
 .field-widget-inline-entity-form fieldset.ief-entity-fieldset,
-.ief-form-bottom > legend .fieldset-legend {
+.ief-form-bottom > legend .fieldset-legend,
+.field-widget-inline-entity-form .field-type-image fieldset.form-wrapper {
   background: transparent;
   border: 0;
   margin: 0;
+}
+.field-widget-inline-entity-form .field-type-image {
+  .form-item label {
+    float: none;
+  }
+  .description {
+    padding-bottom: 10px;
+  }
 }
 .field-widget-inline-entity-form fieldset.ief-entity-fieldset .fieldset-legend {
   border-bottom: 1px solid #e4e4e4;
@@ -425,6 +437,7 @@ div.views-megarow-content {
 .field-widget-inline-entity-form tr.ief-row-form .ief-form-row {
   background: transparent url("../images/mega-arrow.png") no-repeat 50px -1px;
   display: inline-block;
+  margin-top: -1px;
   width: 100%;
 }
 /* Comments View Fix */
