@@ -40,7 +40,6 @@ fieldset.collapsible .fieldset-legend a {
 fieldset.collapsible .fieldset-wrapper {
   background: transparent;
   border: 0;
-  padding: 25px 15px 0;
 }
 
 body.in-maintenance fieldset .fieldset-legend {
