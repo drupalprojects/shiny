@@ -1393,3 +1393,8 @@ html.js #features-export-form fieldset.collapsible .fieldset-wrapper {
 #menu-block-settings input.form-radio + label.ui-button::before {
   background: transparent;
 }
+
+/* Webform Fixes */
+form table#webform-emails label::before {
+  display: none;
+}
