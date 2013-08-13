@@ -1392,3 +1392,10 @@ html.js #features-export-form fieldset.collapsible .fieldset-wrapper {
 form table#webform-emails label::before {
   display: none;
 }
+
+/* Path Breadcrumb Fixes */
+.breadcrumb span.inline,
+.breadcrumb span.delimiter {
+  display: inline;
+  background: none;
+}
