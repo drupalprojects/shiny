@@ -1119,7 +1119,9 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper{
   height: 28px;
 }
 .chzn-container-single .select:focus {
-  box-shadow: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 .chzn-container-single .chzn-single-with-drop {
   border-radius: 3px 3px 0 0;
