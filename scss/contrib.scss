@@ -1205,6 +1205,15 @@ form table#webform-emails label::before {
   display: none;
 }
 
+/* Form Builder Fixes */
+.form-builder-wrapper *,
+#form-builder-fields,
+.form-builder-palette-element {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
 /* Path Breadcrumb Fixes */
 .breadcrumb span.inline,
 .breadcrumb span.delimiter{
