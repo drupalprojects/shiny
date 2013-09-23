@@ -1220,3 +1220,26 @@ form table#webform-emails label::before {
   display: inline;
   background: none;
 }
+
+/* Customise the color module form layout in the theme settings */
+
+.color-form {
+  max-width: 100%;
+}
+
+#placeholder {
+  left: 20px;
+  top: 40px;
+}
+
+#palette {
+  float: left;
+  width: 49%;
+  margin-top: 200px;
+}
+
+html.js #preview {
+  clear: none !important;
+  width: 49%;
+  float: right !important;
+}
