@@ -1411,6 +1411,14 @@ form table#webform-emails label::before {
   background: none;
 }
 
+/* Log Filter Fixes */
+#log-filter-form label::before {
+  display: none;
+}
+#log-filter-form input.form-checkbox {
+  opacity: 1;
+}
+
 /* Customise the color module form layout in the theme settings */
 .color-form {
   max-width: 100%;
