@@ -139,6 +139,7 @@
 .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:focus,
 .ief-row-form .ief-entity-submit:focus {
   color: #fff;
+  outline: 0;
 }
 .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:hover, .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:focus, .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:active, .field-widget-inline-entity-form fieldset fieldset .fieldset-wrapper .ief-entity-submit:disabled,
 .ief-row-form .ief-entity-submit:hover,
@@ -336,6 +337,11 @@ tr.even {
   /* LTR */
 }
 
+form table .ief-product-details input.form-checkbox,
+form table .ief-product-details input.form-radio {
+  opacity: 0;
+}
+
 #module-filter-squeeze .form-item-module-filter-name {
   clear: none;
 }
@@ -406,6 +412,7 @@ tr.even {
 .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:focus,
 .view-commerce-message-messages #commerce-backoffice-message-form input.form-submit:focus {
   color: #fff;
+  outline: 0;
 }
 .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:hover, .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:focus, .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:active, .entity-commerce-order .commerce-backoffice-order-status-form .form-submit:disabled,
 .view-commerce-message-messages #commerce-backoffice-message-form input.form-submit:hover,
@@ -1094,20 +1101,63 @@ html.js .views-exposed-form .form-item input.throbbing {
   .form-type-taxonomy-manager-tree input.form-radio {
     -webkit-appearance: none;
     appearance: none;
-    border: 0;
     opacity: 1;
-    height: 20px;
-    width: 20px;
-    background: transparent url("../images/toggles.png") no-repeat 0 0;
+    outline: 0;
+    height: 17px;
+    width: 17px;
+    border: 1px solid #a1a1a1;
+    border-radius: 3px;
+    background: #eaeaea;
+    background: -moz-linear-gradient(top, white 0%, #eaeaea 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #eaeaea));
+    background: -webkit-linear-gradient(top, white 0%, #eaeaea 100%);
+    background: -o-linear-gradient(top, white 0%, #eaeaea 100%);
+    background: -ms-linear-gradient(top, white 0%, #eaeaea 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #eaeaea 100%);
+  }
+  .form-type-taxonomy-manager-tree input.form-checkbox:focus,
+  .form-type-taxonomy-manager-tree input.form-radio:focus {
+    outline: 0;
+    box-shadow: 0 0 3px #36a2f6;
   }
   .form-type-taxonomy-manager-tree input.form-checkbox:checked {
-    background-position: 0 -20px;
+    background-image: url("../images/check.png");
+    background-image: url("../images/check.png"), -moz-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* FF3.6+ */
+    background-image: url("../images/check.png"), -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #eaeaea));
+    /* Chrome,Safari4+ */
+    background-image: url("../images/check.png"), -webkit-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* Chrome10+,Safari5.1+ */
+    background-image: url("../images/check.png"), -o-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* Opera 11.10+ */
+    background-image: url("../images/check.png"), -ms-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* IE10+ */
+    background-image: url("../images/check.png"), linear-gradient(to bottom, #ffffff 0%, #eaeaea 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='#eaeaea',GradientType=0 );
+    /* IE6-9 */
   }
   .form-type-taxonomy-manager-tree input.form-radio {
-    background-position: 0 -40px;
+    height: 14px;
+    width: 14px;
+    border-radius: 14px;
   }
   .form-type-taxonomy-manager-tree input.form-radio:checked {
-    background-position: 0 -60px;
+    background-image: url("../images/radio.png");
+    background-image: url("../images/radio.png"), -moz-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* FF3.6+ */
+    background-image: url("../images/radio.png"), -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #eaeaea));
+    /* Chrome,Safari4+ */
+    background-image: url("../images/radio.png"), -webkit-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* Chrome10+,Safari5.1+ */
+    background-image: url("../images/radio.png"), -o-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* Opera 11.10+ */
+    background-image: url("../images/radio.png"), -ms-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* IE10+ */
+    background-image: url("../images/radio.png"), linear-gradient(to bottom, #ffffff 0%, #eaeaea 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='#eaeaea',GradientType=0 );
+    /* IE6-9 */
   }
   .form-type-taxonomy-manager-tree .form-disabled input.form-checkbox {
     opacity: .4;
