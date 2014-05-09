@@ -222,6 +222,9 @@ form table input.form-radio {
   height: auto;
   width: auto;
 }
+form table .form-disabled input.form-checkbox {
+  opacity: .4;
+}
 
 /* Form Fixes for Webkit Browsers. */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
