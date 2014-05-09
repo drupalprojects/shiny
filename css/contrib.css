@@ -593,6 +593,13 @@ div.views-megarow-content {
   background-image: url("../images/mega-arrow.png");
 }
 
+.commerce-backoffice-view div.views-megarow-content {
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0;
+}
+
 .field-widget-inline-entity-form tr.ief-row-form .ief-form-row {
   background: transparent url("../images/mega-arrow.png") no-repeat 50px -1px;
   display: inline-block;
