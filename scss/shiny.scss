@@ -188,6 +188,14 @@ select.form-select {
     color: #000;
   }
 }
+form table {
+  input.form-checkbox,
+  input.form-radio {
+    opacity: 1;
+    height: auto;
+    width: auto;
+  }
+}
 /* Form Fixes for Webkit Browsers. */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   select.form-select {
@@ -227,24 +235,9 @@ select.form-select {
 }
 /* Form Fix for Firefox */
 @-moz-document url-prefix() {
-  form table {
-    input.form-checkbox,
-    input.form-radio {
-      opacity: 1;
-      height: auto;
-      width: auto;
-    }
-    .fieldset-wrapper input.form-radio,
-    .fieldset-wrapper input.form-checkbox {
-      opacity: 0;
-    }
-  }
-}
-/* Form Fix for Opera */
-noindex:-o-prefocus, form table {
-  input.form-checkbox,
-  input.form-radio {
-    opacity: 1;
+  .fieldset-wrapper input.form-radio,
+  .fieldset-wrapper input.form-checkbox {
+    opacity: 0;
   }
 }
 .exposed-filters .form-item label {

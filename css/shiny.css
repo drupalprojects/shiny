@@ -216,6 +216,13 @@ select.form-select:focus {
   color: #000;
 }
 
+form table input.form-checkbox,
+form table input.form-radio {
+  opacity: 1;
+  height: auto;
+  width: auto;
+}
+
 /* Form Fixes for Webkit Browsers. */
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   select.form-select {
@@ -254,23 +261,10 @@ select.form-select:focus {
 }
 /* Form Fix for Firefox */
 @-moz-document url-prefix() {
-  form table input.form-checkbox,
-  form table input.form-radio {
-    opacity: 1;
-    height: auto;
-    width: auto;
-  }
-  form table .fieldset-wrapper input.form-radio,
-  form table .fieldset-wrapper input.form-checkbox {
+  .fieldset-wrapper input.form-radio,
+  .fieldset-wrapper input.form-checkbox {
     opacity: 0;
   }
-}
-
-/* Form Fix for Opera */
-noindex:-o-prefocus input.form-checkbox,
-noindex:-o-prefocus input.form-radio, form table input.form-checkbox,
-form table input.form-radio {
-  opacity: 1;
 }
 
 .exposed-filters .form-item label {
