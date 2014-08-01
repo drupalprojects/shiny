@@ -1259,10 +1259,10 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper {
 /* @group CTools */
 /* @group Buttons */
 .ctools-button-processed {
-  background-image: -moz-linear-gradient(-90deg, white 0px, #efeded 100%);
+  background-image: -moz-linear-gradient(180deg, white 0px, #efeded 100%);
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
-  background-image: -webkit-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: linear-gradient(-90deg, #ffffff 0px, #efeded 100%);
+  background-image: -webkit-linear-gradient(180deg, white 0px, #efeded 100%);
+  background-image: linear-gradient(180deg, #ffffff 0px, #efeded 100%);
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -1276,17 +1276,11 @@ html.js .vbo-views-form #edit-select fieldset .fieldset-wrapper {
 }
 
 .ctools-button-processed:hover {
-  background-image: -moz-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
-  background-image: -webkit-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: linear-gradient(-90deg, #ffffff 0px, #efeded 100%);
+  background: #f6f6f6;
 }
 
 .ctools-dropbutton-processed.open:hover {
-  background-image: -moz-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, white), color-stop(1, #efefef));
-  background-image: -webkit-linear-gradient(-90deg, white 0px, #efeded 100%);
-  background-image: linear-gradient(-90deg, #ffffff 0px, #efeded 100%);
+  background: #f6f6f6;
 }
 
 .ctools-dropbutton-processed.open {
