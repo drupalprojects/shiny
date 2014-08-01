@@ -165,7 +165,7 @@ input.form-radio + label::before {
   cursor: pointer;
   position: absolute;
   top: 4px;
-  left: 2px;
+  left: 0;
   /* LTR */
   height: 15px;
   width: 15px;
