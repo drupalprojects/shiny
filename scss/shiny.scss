@@ -135,8 +135,8 @@ input.form-radio + label {
 input.form-checkbox ,
 input.form-radio {
   opacity: 0;
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
 }
 #foo:checked,
 input.form-checkbox + label::before,
@@ -684,8 +684,8 @@ input.vbo-table-select-all,
 input.vbo-select,
 td.checkbox input.form-checkbox {
   opacity: 1;
-  height: 20px;
-  width: 20px;
+  height: 17px;
+  width: 17px;
 }
 
 #module-filter-squeeze td.checkbox input.form-checkbox {
