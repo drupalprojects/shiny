@@ -878,13 +878,14 @@ html.js .views-exposed-form .form-item input.throbbing {
       input.form-checkbox {
         opacity: 1;
         -webkit-appearance: none;
-        -moz-appearance: none;
         height: 17px;
         width: 17px;
-        background: transparent url("../images/toggles.png") no-repeat 0 0;
+        border: 1px solid #a1a1a1;
+        border-radius: 3px;
+        @include gradient-vertical(#ffffff,#eaeaea);
 
         &:checked {
-          background-position: 0 -20px;
+          @include gradient-image(url("../images/check.png"), #ffffff, #eaeaea);
         }
       }
     }

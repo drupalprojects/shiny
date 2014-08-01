@@ -1088,13 +1088,36 @@ html.js .views-exposed-form .form-item input.throbbing {
   .vbo-select-all-markup .vbo-fieldset-select-all input.form-checkbox {
     opacity: 1;
     -webkit-appearance: none;
-    -moz-appearance: none;
     height: 17px;
     width: 17px;
-    background: transparent url("../images/toggles.png") no-repeat 0 0;
+    border: 1px solid #a1a1a1;
+    border-radius: 3px;
+    background: #eaeaea;
+    background: -moz-linear-gradient(top, white 0%, #eaeaea 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #eaeaea));
+    background: -webkit-linear-gradient(top, white 0%, #eaeaea 100%);
+    background: -o-linear-gradient(top, white 0%, #eaeaea 100%);
+    background: -ms-linear-gradient(top, white 0%, #eaeaea 100%);
+    background: linear-gradient(to bottom, #ffffff 0%, #eaeaea 100%);
   }
   .vbo-select-all-markup .vbo-fieldset-select-all input.form-checkbox:checked {
-    background-position: 0 -20px;
+    background-image: url("../images/check.png");
+    background-image: url("../images/check.png"), -moz-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* FF3.6+ */
+    background-image: url("../images/check.png"), -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #eaeaea));
+    /* Chrome,Safari4+ */
+    background-image: url("../images/check.png"), -webkit-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* Chrome10+,Safari5.1+ */
+    background-image: url("../images/check.png"), -o-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* Opera 11.10+ */
+    background-image: url("../images/check.png"), -ms-linear-gradient(top, white 0%, #eaeaea 100%);
+    /* IE10+ */
+    background-image: url("../images/check.png"), linear-gradient(to bottom, #ffffff 0%, #eaeaea 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$from', endColorstr='#eaeaea',GradientType=0 );
+    /* IE6-9 */
+    background-repeat: no-repeat;
+    background-position: center center;
   }
 
   .form-type-taxonomy-manager-tree input.form-checkbox,
