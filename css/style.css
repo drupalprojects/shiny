@@ -940,6 +940,12 @@ div.admin-panel h3 {
   margin-top: 0;
 }
 
+.system-themes-list-disabled .theme-selector {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
+
 /* Update options. */
 div.admin-options {
   background: #f8f8f8;

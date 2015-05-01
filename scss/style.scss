@@ -773,6 +773,11 @@ div.admin-panel h3 {
 .system-themes-list-enabled .theme-selector h3 {
   margin-top: 0;
 }
+.system-themes-list-disabled .theme-selector {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+}
 
 /* Update options. */
 div.admin-options {
