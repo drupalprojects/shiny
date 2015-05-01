@@ -487,7 +487,7 @@ form table .ief-product-details input.form-radio {
 
 .entity-commerce-order table,
 .entity-commerce-order tr,
-tr td:last-child {
+.entity-commerce-order tr td:last-child {
   border: 0;
 }
 
