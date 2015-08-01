@@ -264,6 +264,14 @@ form table .fieldset-wrapper {
   .fieldset-wrapper input.form-checkbox {
     opacity: 0;
   }
+  select.form-select {
+    padding: 5px 35px 5px 5px; /* LTR */
+    background: #fff url("../images/drop-filter.png") no-repeat right center; /* LTR */
+    &[multiple="multiple"] {
+      background: #fff;
+      padding: 5px;
+    }
+  }
 }
 .exposed-filters .form-item label {
   float: none;

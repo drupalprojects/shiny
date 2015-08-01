@@ -373,6 +373,16 @@ form table .fieldset-wrapper .form-disabled input.form-checkbox {
   .fieldset-wrapper input.form-checkbox {
     opacity: 0;
   }
+  select.form-select {
+    padding: 5px 35px 5px 5px;
+    /* LTR */
+    background: white url("../images/drop-filter.png") no-repeat right center;
+    /* LTR */
+  }
+  select.form-select[multiple="multiple"] {
+    background: #fff;
+    padding: 5px;
+  }
 }
 
 .exposed-filters .form-item label {
