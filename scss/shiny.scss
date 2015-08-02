@@ -602,6 +602,7 @@ table.sticky-header {
 
   th {
     border-bottom: 0;
+    box-sizing: initial;
   }
 }
 /* Firefox fix for Sticky Table Headers */
