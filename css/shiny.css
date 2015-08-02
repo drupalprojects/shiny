@@ -373,6 +373,7 @@ form table .fieldset-wrapper .form-disabled input.form-checkbox {
   .fieldset-wrapper input.form-checkbox {
     opacity: 0;
   }
+
   select.form-select {
     padding: 5px 35px 5px 5px;
     /* LTR */
@@ -507,7 +508,7 @@ h1#overlay-title {
 #branding ul.tabs {
   clear: right;
   /* LTR */
-  margin: 0 0 -5px;
+  margin: 0;
   padding: 3px 0 0;
   position: relative;
   right: 0;
@@ -516,7 +517,7 @@ h1#overlay-title {
 
 #overlay-tabs li,
 #branding ul.tabs li {
-  margin: 0;
+  margin: 0 0 -5px;
   padding: 0;
 }
 
@@ -970,12 +971,7 @@ fieldset.collapsed {
 }
 
 html.js input.form-autocomplete {
-  background-position: 100% 7px;
   padding: 3px 5px;
-}
-
-html.js input.throbbing {
-  background-position: 100% -14px;
 }
 
 /**

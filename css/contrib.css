@@ -987,14 +987,6 @@ td.views-field-operations-dropbutton .ctools-dropbutton-processed {
   padding: 4px 5px;
 }
 
-html.js .views-exposed-form .form-item input.form-autocomplete {
-  background-position: 100% 6px;
-}
-
-html.js .views-exposed-form .form-item input.throbbing {
-  background-position: 100% -14px;
-}
-
 .commerce-backoffice-view .views-exposed-form .date-padding .form-item {
   margin-top: 0;
   max-width: 100%;
