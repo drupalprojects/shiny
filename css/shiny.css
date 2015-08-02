@@ -114,7 +114,7 @@ textarea.form-textarea:focus {
 #edit-actions input.form-submit {
   margin-bottom: 0;
 }
-#edit-actions #edit-delete {
+#edit-actions #edit-delete, #edit-actions #edit-delete-translation {
   color: #ab5757;
   float: right;
   /* LTR */
@@ -125,7 +125,7 @@ textarea.form-textarea:focus {
   -webkit-box-shadow: 0 0 0 transparent;
   box-shadow: 0 0 0 transparent;
 }
-#edit-actions #edit-delete:hover {
+#edit-actions #edit-delete:hover, #edit-actions #edit-delete-translation:hover {
   text-decoration: underline;
 }
 
