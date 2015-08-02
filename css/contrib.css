@@ -1528,8 +1528,7 @@ form table#webform-emails label::before {
   margin-top: 200px;
 }
 
-html.js #preview {
+html.js #preview.color-processed {
   clear: none !important;
   width: 49%;
-  float: right !important;
 }
